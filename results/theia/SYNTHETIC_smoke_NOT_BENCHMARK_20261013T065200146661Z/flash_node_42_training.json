@@ -1,0 +1,39 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "mean_window_loss": 1.1682416200637817,
+      "windows": 1
+    },
+    {
+      "epoch": 2,
+      "mean_window_loss": 1.129509449005127,
+      "windows": 1
+    }
+  ],
+  "reservoir_seen": 0,
+  "reservoir_retained": 0,
+  "reference_uuids": [],
+  "scaler_samples": 48,
+  "scaler_mean": [
+    0.0,
+    0.25993019342422485,
+    0.1732867956161499,
+    0.0,
+    0.25993019342422485,
+    0.1732867956161499,
+    0.0006527415243908763,
+    0.49934726022183895
+  ],
+  "scaler_scale": [
+    1.0,
+    0.3355684367694985,
+    0.45847376669161033,
+    1.0,
+    0.3355684367694985,
+    0.45847376669161033,
+    0.0011305814844549573,
+    0.3010454941060693
+  ],
+  "label_use": "No malicious/benign labels read in training, scaling, type vocabulary or reservoir selection."
+}

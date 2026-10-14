@@ -1,0 +1,5 @@
+{
+  "threshold": 0.17203440368175507,
+  "rule": "maximum validation F1; highest threshold on ties",
+  "partition": "validation"
+}

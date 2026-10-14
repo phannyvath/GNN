@@ -1,0 +1,1 @@
+{"name":"pilot","seeds":[42,43,44],"split_seed":2026,"epochs":8,"hidden":32,"learning_rate":0.003,"mask_rate":0.4,"max_edges":512,"reservoir_seed":77,"knn_k":5,"device":"cpu","threads":2}

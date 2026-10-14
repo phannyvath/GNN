@@ -1,0 +1,154 @@
+{
+  "flash_inspired": {
+    "precision": {
+      "mean": 1.0,
+      "std": null
+    },
+    "recall": {
+      "mean": 0.9,
+      "std": null
+    },
+    "f1": {
+      "mean": 0.9473684210526315,
+      "std": null
+    },
+    "average_precision": {
+      "mean": 1.0,
+      "std": null
+    },
+    "roc_auc": {
+      "mean": 1.0,
+      "std": null
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "std": null
+    },
+    "training_seconds": {
+      "mean": 2.25431929086335,
+      "std": null
+    },
+    "inference_seconds": {
+      "mean": 0.054820582969114184,
+      "std": null
+    },
+    "process_peak_rss_mb": {
+      "mean": 426.125,
+      "std": null
+    }
+  },
+  "magic_inspired": {
+    "precision": {
+      "mean": 1.0,
+      "std": null
+    },
+    "recall": {
+      "mean": 1.0,
+      "std": null
+    },
+    "f1": {
+      "mean": 1.0,
+      "std": null
+    },
+    "average_precision": {
+      "mean": 1.0,
+      "std": null
+    },
+    "roc_auc": {
+      "mean": 1.0,
+      "std": null
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "std": null
+    },
+    "training_seconds": {
+      "mean": 2.405884125037119,
+      "std": null
+    },
+    "inference_seconds": {
+      "mean": 0.04842800018377602,
+      "std": null
+    },
+    "process_peak_rss_mb": {
+      "mean": 442.125,
+      "std": null
+    }
+  },
+  "streamspot_inspired": {
+    "precision": {
+      "mean": 0.7037037037037037,
+      "std": null
+    },
+    "recall": {
+      "mean": 0.95,
+      "std": null
+    },
+    "f1": {
+      "mean": 0.8085106382978723,
+      "std": null
+    },
+    "average_precision": {
+      "mean": 0.5783377088242817,
+      "std": null
+    },
+    "roc_auc": {
+      "mean": 0.9390000000000001,
+      "std": null
+    },
+    "false_positive_rate": {
+      "mean": 0.08,
+      "std": null
+    },
+    "training_seconds": {
+      "mean": 0.11860783398151398,
+      "std": null
+    },
+    "inference_seconds": {
+      "mean": 0.04514445806853473,
+      "std": null
+    },
+    "process_peak_rss_mb": {
+      "mean": 410.28125,
+      "std": null
+    }
+  },
+  "random_forest": {
+    "precision": {
+      "mean": 1.0,
+      "std": null
+    },
+    "recall": {
+      "mean": 1.0,
+      "std": null
+    },
+    "f1": {
+      "mean": 1.0,
+      "std": null
+    },
+    "average_precision": {
+      "mean": 1.0,
+      "std": null
+    },
+    "roc_auc": {
+      "mean": 1.0,
+      "std": null
+    },
+    "false_positive_rate": {
+      "mean": 0.0,
+      "std": null
+    },
+    "training_seconds": {
+      "mean": 0.06066312501206994,
+      "std": null
+    },
+    "inference_seconds": {
+      "mean": 0.005002832971513271,
+      "std": null
+    },
+    "process_peak_rss_mb": {
+      "mean": 415.140625,
+      "std": null
+    }
+  }
+}

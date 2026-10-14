@@ -1,0 +1,6 @@
+{"epoch": 1, "mean_window_loss": 0.717583054304123, "windows": 10}
+{"epoch": 2, "mean_window_loss": 0.5985424399375916, "windows": 10}
+{"epoch": 3, "mean_window_loss": 0.531841266155243, "windows": 10}
+{"epoch": 4, "mean_window_loss": 0.5074336588382721, "windows": 10}
+{"epoch": 5, "mean_window_loss": 0.5044182389974594, "windows": 10}
+{"known_targets": 20000, "unknown_targets": 0, "precision": 0.7550638297872341, "recall": 0.8872, "f1": 0.8158160919540229, "average_precision": 0.8352928455174962, "roc_auc": 0.9036728800000001, "tn": 13561, "fp": 1439, "fn": 564, "tp": 4436, "false_positive_rate": 0.09593333333333333, "binary_metrics_defined": true, "dataset": "synthetic_cdm18", "target": "entity_once_at_first_retained_window_end", "model": "magic_node", "seed": 42, "fingerprint": "0bcfa5ff8d1a9d1d6f9b25adb8acde39665e01df0195be64db8a4102a4f72639", "label_policy": "positive_unknown", "threshold": 8.429369557916289e-08, "threshold_rule": "maximum validation F1; highest threshold on ties", "training_seconds": 0.22417958406731486, "validation_seconds": 0.14481833390891552, "inference_seconds": 0.12864824989810586, "process_peak_rss_mib": 377.1875, "training_context_node_occurrences": 20082, "test_targets": 20000, "validation_targets": 20000, "device": "cpu", "experiment_role": "synthetic_pilot"}

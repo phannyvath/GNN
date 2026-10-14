@@ -1,0 +1,9 @@
+epoch 1/8 loss=0.335857
+epoch 2/8 loss=0.001920
+epoch 3/8 loss=0.000556
+epoch 4/8 loss=0.000205
+epoch 5/8 loss=0.000130
+epoch 6/8 loss=0.000071
+epoch 7/8 loss=0.000050
+epoch 8/8 loss=0.000038
+test F1=0.8889, AP=1.0000, FPR=0.0000

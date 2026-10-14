@@ -1,0 +1,13 @@
+1. Open README.md for Mac setup instructions.
+2. To see the already executed experiment without installing Python packages:
+   open results/pilot_20261006T031228745094Z/dashboard.html in your browser.
+3. For your own experiment, create the Python environment as described in README.md,
+   then run:
+   python main.py run --config configs/quick.json
+   python main.py demo
+4. Read docs/METHOD_NOTES.md before explaining the models.
+5. Use docs/ASSESSMENT_PLANNING.md to organise your own team recording and presentation.
+   Fill the progress CSV from real activities. Write the assessed report yourselves.
+
+The actual StreamSpot dataset and executed pilot outputs are included.
+This is a Python project for Terminal/VS Code, not BlueJ.

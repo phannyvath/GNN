@@ -1,0 +1,9 @@
+{
+  "magic": "aa0b647eea74b6faa0e52eb444370c4411a32cbe",
+  "flash": "ccbafee7eb796c76aceaabdc259ebd1f12b867cc",
+  "threatrace": "f5b1c02cb0c03373f11ea0378dc1491fa7d85b1c",
+  "checked_client_date": "2026-10-13",
+  "threatrace_labels_sha256": "2902255747499654355be31de46e2a698fb26ce9f5c4b32ee1924bada62c0630",
+  "flash_notebook_sha256": "e5bd3aeeb9af606849c412d718940a60affd24343bf48733e96137ad5e3f2b89",
+  "access_result": "Public metadata and malicious labels accessible. Both 1r and 6r JSON downloads returned Google Drive - Quota exceeded. 1r binary also returned HTML. No genuine raw events acquired."
+}

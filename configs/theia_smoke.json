@@ -1,0 +1,31 @@
+{
+  "dataset": "darpa_tc_e3_theia",
+  "name": "theia_smoke",
+  "seeds": [
+    42
+  ],
+  "device": "cpu",
+  "threads": 2,
+  "max_raw_records": 100000,
+  "max_import_edges": 60000,
+  "max_line_bytes": 16777216,
+  "max_nodes_per_window": 512,
+  "max_edges_per_window": 1024,
+  "max_windows_per_partition": 12,
+  "window_ns": 60000000000,
+  "split_mode": "observed_time_fraction",
+  "label_policy": "positive_unknown",
+  "background_rationale": "",
+  "epochs": 2,
+  "hidden": 32,
+  "learning_rate": 0.003,
+  "mask_rate": 0.4,
+  "rf_max_train_nodes": 4096,
+  "rf_trees": 32,
+  "rf_max_depth": 12,
+  "max_reference_nodes": 2048,
+  "knn_k": 5,
+  "validation_fpr": 0.01,
+  "experiment_role": "engineering_smoke",
+  "max_import_nodes": 50000
+}

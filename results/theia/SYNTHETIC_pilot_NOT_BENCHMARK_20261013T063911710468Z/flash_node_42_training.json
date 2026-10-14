@@ -1,0 +1,54 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "mean_window_loss": 0.9696739315986633,
+      "windows": 10
+    },
+    {
+      "epoch": 2,
+      "mean_window_loss": 0.3643146112561226,
+      "windows": 10
+    },
+    {
+      "epoch": 3,
+      "mean_window_loss": 0.03333059903234244,
+      "windows": 10
+    },
+    {
+      "epoch": 4,
+      "mean_window_loss": 0.0023765057791024446,
+      "windows": 10
+    },
+    {
+      "epoch": 5,
+      "mean_window_loss": 0.0005396981709054671,
+      "windows": 10
+    }
+  ],
+  "reservoir_seen": 0,
+  "reservoir_retained": 0,
+  "reference_uuids": [],
+  "scaler_samples": 20082,
+  "scaler_mean": [
+    0.0,
+    0.25886883121623827,
+    0.17340703030029578,
+    0.0,
+    0.25886883121623827,
+    0.17340703030029578,
+    0.006164805621658915,
+    0.49722601957116475
+  ],
+  "scaler_scale": [
+    1.0,
+    0.33529260237914443,
+    0.4568336948333036,
+    1.0,
+    0.33529260237914443,
+    0.4568336948333036,
+    0.01076184761393564,
+    0.28955392971359056
+  ],
+  "label_use": "No malicious/benign labels read in training, scaling, type vocabulary or reservoir selection."
+}

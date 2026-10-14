@@ -1,0 +1,12 @@
+{
+  "boundaries_ns": [
+    0,
+    1000,
+    2000,
+    3000
+  ],
+  "intervals": "[start,end)",
+  "target_assignment": "first retained occurrence; UUID targets disjoint; earlier entities may recur as context",
+  "target_file": "targets.csv",
+  "sha256": "c56d55f9e94023fc8cef1b557470c70ba39de216dbcfbb45cb294ac604cf7835"
+}

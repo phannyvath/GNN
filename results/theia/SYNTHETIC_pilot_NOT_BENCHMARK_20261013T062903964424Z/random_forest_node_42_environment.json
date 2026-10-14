@@ -1,0 +1,10 @@
+{
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.13.7",
+  "torch": "2.14.1",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1",
+  "threads": 2,
+  "memory_definition": "Fresh worker lifetime OS peak resident set, MiB, includes imports, training and inference; excludes other processes and GPU memory."
+}

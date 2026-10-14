@@ -1,0 +1,1 @@
+{"name":"full","seeds":[42,43,44],"split_seed":2026,"epochs":30,"hidden":64,"learning_rate":0.001,"mask_rate":0.4,"max_edges":2048,"reservoir_seed":77,"knn_k":5,"device":"cpu","threads":2}

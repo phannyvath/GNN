@@ -1,0 +1,67 @@
+{
+  "dataset": "StreamSpot ALL",
+  "source_url": "https://raw.githubusercontent.com/sbustreamspot/sbustreamspot-data/master/all.tar.gz",
+  "source_sha256": "1551d7eba96fdea4958b9c0b6c15c773983a5ebdf9f1ffe4430cbb7ea85d23cf",
+  "raw_edge_count": 89770902,
+  "graph_count": 600,
+  "feature_dim": 63,
+  "node_type_vocabulary": {
+    "a": 1,
+    "b": 2,
+    "c": 3,
+    "d": 4,
+    "e": 5,
+    "f": 6,
+    "g": 7,
+    "h": 8
+  },
+  "edge_type_vocabulary": {
+    "A": 1,
+    "B": 2,
+    "C": 3,
+    "D": 4,
+    "E": 5,
+    "F": 6,
+    "G": 7,
+    "H": 8,
+    "i": 9,
+    "j": 10,
+    "k": 11,
+    "l": 12,
+    "m": 13,
+    "n": 14,
+    "o": 15,
+    "p": 16,
+    "q": 17,
+    "r": 18,
+    "s": 19,
+    "t": 20,
+    "u": 21,
+    "v": 22,
+    "w": 23,
+    "x": 24,
+    "y": 25,
+    "z": 26
+  },
+  "config": {
+    "max_edges": 512,
+    "reservoir_seed": 77,
+    "split_seed": 2026
+  },
+  "sampling": "Uniform random edge reservoir per graph; original row ordinals retained only as evidence",
+  "detection_unit": "whole graph",
+  "timestamps_available": false,
+  "names_available": false,
+  "split": "60/20/20 whole graphs, stratified by scenario; not chronological",
+  "limitations": [
+    "No node-level ground truth",
+    "No real timestamps or semantic file names",
+    "Edge sampling removes paths and changes degree distributions",
+    "Scenario stratification does not test unseen attack families"
+  ],
+  "processed_sha256": {
+    "graphs.npz": "cc522de9663510ec8e75f9b396e3cc3259f3eaff038a6c9ded0b787c15e01715",
+    "graphs.json": "38fa165cb945ae88dfbb31b4dc7e4865a13d2f48a7df832665453c067d4c679f",
+    "splits.json": "37d3417ec48cbea8ee16d7a429c242900d4f9c62fc16da0b8a89bb7b10871959"
+  }
+}

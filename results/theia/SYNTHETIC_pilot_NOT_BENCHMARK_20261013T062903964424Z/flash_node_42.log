@@ -1,0 +1,6 @@
+{"epoch": 1, "mean_window_loss": 0.9696739315986633, "windows": 10}
+{"epoch": 2, "mean_window_loss": 0.3643146112561226, "windows": 10}
+{"epoch": 3, "mean_window_loss": 0.03333059903234244, "windows": 10}
+{"epoch": 4, "mean_window_loss": 0.0023765057791024446, "windows": 10}
+{"epoch": 5, "mean_window_loss": 0.0005396981709054671, "windows": 10}
+{"known_targets": 20000, "unknown_targets": 0, "precision": 1.0, "recall": 0.6128, "f1": 0.7599206349206349, "average_precision": 0.7880877709772254, "roc_auc": 0.8564761, "tn": 15000, "fp": 0, "fn": 1936, "tp": 3064, "false_positive_rate": 0.0, "binary_metrics_defined": true, "dataset": "synthetic_cdm18", "target": "entity_once_at_first_retained_window_end", "model": "flash_node", "seed": 42, "fingerprint": "0bcfa5ff8d1a9d1d6f9b25adb8acde39665e01df0195be64db8a4102a4f72639", "label_policy": "positive_unknown", "threshold": 0.00035822391510009766, "threshold_rule": "maximum validation F1; highest threshold on ties", "training_seconds": 0.12437379197217524, "validation_seconds": 0.021241166163235903, "inference_seconds": 0.02068454190157354, "process_peak_rss_mib": 372.984375, "training_context_node_occurrences": 20082, "test_targets": 20000, "validation_targets": 20000, "device": "cpu", "experiment_role": "synthetic_pilot"}

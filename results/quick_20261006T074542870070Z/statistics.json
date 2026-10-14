@@ -1,0 +1,4802 @@
+[
+  {
+    "graph_id": 0,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 104968,
+    "sampled_edges": 512,
+    "sampled_nodes": 174
+  },
+  {
+    "graph_id": 1,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 76512,
+    "sampled_edges": 512,
+    "sampled_nodes": 210
+  },
+  {
+    "graph_id": 2,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 210845,
+    "sampled_edges": 512,
+    "sampled_nodes": 95
+  },
+  {
+    "graph_id": 3,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 79365,
+    "sampled_edges": 512,
+    "sampled_nodes": 203
+  },
+  {
+    "graph_id": 4,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 99545,
+    "sampled_edges": 512,
+    "sampled_nodes": 175
+  },
+  {
+    "graph_id": 5,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 110573,
+    "sampled_edges": 512,
+    "sampled_nodes": 159
+  },
+  {
+    "graph_id": 6,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 78282,
+    "sampled_edges": 512,
+    "sampled_nodes": 208
+  },
+  {
+    "graph_id": 7,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 96483,
+    "sampled_edges": 512,
+    "sampled_nodes": 174
+  },
+  {
+    "graph_id": 8,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 80014,
+    "sampled_edges": 512,
+    "sampled_nodes": 197
+  },
+  {
+    "graph_id": 9,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 69997,
+    "sampled_edges": 512,
+    "sampled_nodes": 227
+  },
+  {
+    "graph_id": 10,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 99415,
+    "sampled_edges": 512,
+    "sampled_nodes": 157
+  },
+  {
+    "graph_id": 11,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 124034,
+    "sampled_edges": 512,
+    "sampled_nodes": 133
+  },
+  {
+    "graph_id": 12,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 109978,
+    "sampled_edges": 512,
+    "sampled_nodes": 149
+  },
+  {
+    "graph_id": 13,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 116530,
+    "sampled_edges": 512,
+    "sampled_nodes": 140
+  },
+  {
+    "graph_id": 14,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 87186,
+    "sampled_edges": 512,
+    "sampled_nodes": 181
+  },
+  {
+    "graph_id": 15,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98071,
+    "sampled_edges": 512,
+    "sampled_nodes": 158
+  },
+  {
+    "graph_id": 16,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100407,
+    "sampled_edges": 512,
+    "sampled_nodes": 160
+  },
+  {
+    "graph_id": 17,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 96747,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 18,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 121101,
+    "sampled_edges": 512,
+    "sampled_nodes": 155
+  },
+  {
+    "graph_id": 19,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 126074,
+    "sampled_edges": 512,
+    "sampled_nodes": 152
+  },
+  {
+    "graph_id": 20,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 76556,
+    "sampled_edges": 512,
+    "sampled_nodes": 203
+  },
+  {
+    "graph_id": 21,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 97588,
+    "sampled_edges": 512,
+    "sampled_nodes": 166
+  },
+  {
+    "graph_id": 22,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 114071,
+    "sampled_edges": 512,
+    "sampled_nodes": 164
+  },
+  {
+    "graph_id": 23,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 92897,
+    "sampled_edges": 512,
+    "sampled_nodes": 173
+  },
+  {
+    "graph_id": 24,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 132643,
+    "sampled_edges": 512,
+    "sampled_nodes": 149
+  },
+  {
+    "graph_id": 25,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 101403,
+    "sampled_edges": 512,
+    "sampled_nodes": 177
+  },
+  {
+    "graph_id": 26,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 105787,
+    "sampled_edges": 512,
+    "sampled_nodes": 157
+  },
+  {
+    "graph_id": 27,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98837,
+    "sampled_edges": 512,
+    "sampled_nodes": 161
+  },
+  {
+    "graph_id": 28,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 220025,
+    "sampled_edges": 512,
+    "sampled_nodes": 95
+  },
+  {
+    "graph_id": 29,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 219062,
+    "sampled_edges": 512,
+    "sampled_nodes": 97
+  },
+  {
+    "graph_id": 30,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 109512,
+    "sampled_edges": 512,
+    "sampled_nodes": 144
+  },
+  {
+    "graph_id": 31,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 110639,
+    "sampled_edges": 512,
+    "sampled_nodes": 164
+  },
+  {
+    "graph_id": 32,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 99507,
+    "sampled_edges": 512,
+    "sampled_nodes": 161
+  },
+  {
+    "graph_id": 33,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98475,
+    "sampled_edges": 512,
+    "sampled_nodes": 162
+  },
+  {
+    "graph_id": 34,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 76398,
+    "sampled_edges": 512,
+    "sampled_nodes": 209
+  },
+  {
+    "graph_id": 35,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 96818,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 36,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98004,
+    "sampled_edges": 512,
+    "sampled_nodes": 158
+  },
+  {
+    "graph_id": 37,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 101708,
+    "sampled_edges": 512,
+    "sampled_nodes": 169
+  },
+  {
+    "graph_id": 38,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 123176,
+    "sampled_edges": 512,
+    "sampled_nodes": 136
+  },
+  {
+    "graph_id": 39,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 109114,
+    "sampled_edges": 512,
+    "sampled_nodes": 160
+  },
+  {
+    "graph_id": 40,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 114258,
+    "sampled_edges": 512,
+    "sampled_nodes": 160
+  },
+  {
+    "graph_id": 41,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100028,
+    "sampled_edges": 512,
+    "sampled_nodes": 189
+  },
+  {
+    "graph_id": 42,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98443,
+    "sampled_edges": 512,
+    "sampled_nodes": 170
+  },
+  {
+    "graph_id": 43,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 104879,
+    "sampled_edges": 512,
+    "sampled_nodes": 159
+  },
+  {
+    "graph_id": 44,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 116720,
+    "sampled_edges": 512,
+    "sampled_nodes": 146
+  },
+  {
+    "graph_id": 45,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 71063,
+    "sampled_edges": 512,
+    "sampled_nodes": 206
+  },
+  {
+    "graph_id": 46,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 102363,
+    "sampled_edges": 512,
+    "sampled_nodes": 180
+  },
+  {
+    "graph_id": 47,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100267,
+    "sampled_edges": 512,
+    "sampled_nodes": 172
+  },
+  {
+    "graph_id": 48,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 108941,
+    "sampled_edges": 512,
+    "sampled_nodes": 179
+  },
+  {
+    "graph_id": 49,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 211105,
+    "sampled_edges": 512,
+    "sampled_nodes": 106
+  },
+  {
+    "graph_id": 50,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 115736,
+    "sampled_edges": 512,
+    "sampled_nodes": 145
+  },
+  {
+    "graph_id": 51,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98855,
+    "sampled_edges": 512,
+    "sampled_nodes": 170
+  },
+  {
+    "graph_id": 52,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 86249,
+    "sampled_edges": 512,
+    "sampled_nodes": 199
+  },
+  {
+    "graph_id": 53,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 105829,
+    "sampled_edges": 512,
+    "sampled_nodes": 182
+  },
+  {
+    "graph_id": 54,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 75361,
+    "sampled_edges": 512,
+    "sampled_nodes": 208
+  },
+  {
+    "graph_id": 55,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 99677,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 56,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98263,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 57,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100264,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 58,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 109771,
+    "sampled_edges": 512,
+    "sampled_nodes": 141
+  },
+  {
+    "graph_id": 59,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 110153,
+    "sampled_edges": 512,
+    "sampled_nodes": 157
+  },
+  {
+    "graph_id": 60,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 99560,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 61,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100897,
+    "sampled_edges": 512,
+    "sampled_nodes": 143
+  },
+  {
+    "graph_id": 62,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 212098,
+    "sampled_edges": 512,
+    "sampled_nodes": 93
+  },
+  {
+    "graph_id": 63,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 99720,
+    "sampled_edges": 512,
+    "sampled_nodes": 151
+  },
+  {
+    "graph_id": 64,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 117229,
+    "sampled_edges": 512,
+    "sampled_nodes": 164
+  },
+  {
+    "graph_id": 65,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98723,
+    "sampled_edges": 512,
+    "sampled_nodes": 171
+  },
+  {
+    "graph_id": 66,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 219376,
+    "sampled_edges": 512,
+    "sampled_nodes": 98
+  },
+  {
+    "graph_id": 67,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 99415,
+    "sampled_edges": 512,
+    "sampled_nodes": 155
+  },
+  {
+    "graph_id": 68,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 79147,
+    "sampled_edges": 512,
+    "sampled_nodes": 191
+  },
+  {
+    "graph_id": 69,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 112042,
+    "sampled_edges": 512,
+    "sampled_nodes": 169
+  },
+  {
+    "graph_id": 70,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 101280,
+    "sampled_edges": 512,
+    "sampled_nodes": 144
+  },
+  {
+    "graph_id": 71,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 216745,
+    "sampled_edges": 512,
+    "sampled_nodes": 100
+  },
+  {
+    "graph_id": 72,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 105935,
+    "sampled_edges": 512,
+    "sampled_nodes": 153
+  },
+  {
+    "graph_id": 73,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 111652,
+    "sampled_edges": 512,
+    "sampled_nodes": 157
+  },
+  {
+    "graph_id": 74,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 112569,
+    "sampled_edges": 512,
+    "sampled_nodes": 172
+  },
+  {
+    "graph_id": 75,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98641,
+    "sampled_edges": 512,
+    "sampled_nodes": 179
+  },
+  {
+    "graph_id": 76,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 219583,
+    "sampled_edges": 512,
+    "sampled_nodes": 97
+  },
+  {
+    "graph_id": 77,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 102220,
+    "sampled_edges": 512,
+    "sampled_nodes": 157
+  },
+  {
+    "graph_id": 78,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100268,
+    "sampled_edges": 512,
+    "sampled_nodes": 161
+  },
+  {
+    "graph_id": 79,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 109131,
+    "sampled_edges": 512,
+    "sampled_nodes": 163
+  },
+  {
+    "graph_id": 80,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100138,
+    "sampled_edges": 512,
+    "sampled_nodes": 186
+  },
+  {
+    "graph_id": 81,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 97958,
+    "sampled_edges": 512,
+    "sampled_nodes": 157
+  },
+  {
+    "graph_id": 82,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 211797,
+    "sampled_edges": 512,
+    "sampled_nodes": 91
+  },
+  {
+    "graph_id": 83,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 94229,
+    "sampled_edges": 512,
+    "sampled_nodes": 182
+  },
+  {
+    "graph_id": 84,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98267,
+    "sampled_edges": 512,
+    "sampled_nodes": 164
+  },
+  {
+    "graph_id": 85,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 66596,
+    "sampled_edges": 512,
+    "sampled_nodes": 240
+  },
+  {
+    "graph_id": 86,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 109718,
+    "sampled_edges": 512,
+    "sampled_nodes": 156
+  },
+  {
+    "graph_id": 87,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 210643,
+    "sampled_edges": 512,
+    "sampled_nodes": 93
+  },
+  {
+    "graph_id": 88,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 98912,
+    "sampled_edges": 512,
+    "sampled_nodes": 178
+  },
+  {
+    "graph_id": 89,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100765,
+    "sampled_edges": 512,
+    "sampled_nodes": 160
+  },
+  {
+    "graph_id": 90,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 124486,
+    "sampled_edges": 512,
+    "sampled_nodes": 163
+  },
+  {
+    "graph_id": 91,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 219920,
+    "sampled_edges": 512,
+    "sampled_nodes": 93
+  },
+  {
+    "graph_id": 92,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 110516,
+    "sampled_edges": 512,
+    "sampled_nodes": 177
+  },
+  {
+    "graph_id": 93,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 101156,
+    "sampled_edges": 512,
+    "sampled_nodes": 145
+  },
+  {
+    "graph_id": 94,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 101472,
+    "sampled_edges": 512,
+    "sampled_nodes": 158
+  },
+  {
+    "graph_id": 95,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 99431,
+    "sampled_edges": 512,
+    "sampled_nodes": 156
+  },
+  {
+    "graph_id": 96,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 76517,
+    "sampled_edges": 512,
+    "sampled_nodes": 204
+  },
+  {
+    "graph_id": 97,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 100577,
+    "sampled_edges": 512,
+    "sampled_nodes": 168
+  },
+  {
+    "graph_id": 98,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 109090,
+    "sampled_edges": 512,
+    "sampled_nodes": 153
+  },
+  {
+    "graph_id": 99,
+    "scenario": "YouTube",
+    "label": 0,
+    "raw_edges": 77906,
+    "sampled_edges": 512,
+    "sampled_nodes": 193
+  },
+  {
+    "graph_id": 100,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 42483,
+    "sampled_edges": 512,
+    "sampled_nodes": 240
+  },
+  {
+    "graph_id": 101,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39280,
+    "sampled_edges": 512,
+    "sampled_nodes": 237
+  },
+  {
+    "graph_id": 102,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 34799,
+    "sampled_edges": 512,
+    "sampled_nodes": 251
+  },
+  {
+    "graph_id": 103,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 35172,
+    "sampled_edges": 512,
+    "sampled_nodes": 228
+  },
+  {
+    "graph_id": 104,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32700,
+    "sampled_edges": 512,
+    "sampled_nodes": 243
+  },
+  {
+    "graph_id": 105,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 37581,
+    "sampled_edges": 512,
+    "sampled_nodes": 248
+  },
+  {
+    "graph_id": 106,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 41198,
+    "sampled_edges": 512,
+    "sampled_nodes": 208
+  },
+  {
+    "graph_id": 107,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40263,
+    "sampled_edges": 512,
+    "sampled_nodes": 235
+  },
+  {
+    "graph_id": 108,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 37568,
+    "sampled_edges": 512,
+    "sampled_nodes": 250
+  },
+  {
+    "graph_id": 109,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 42666,
+    "sampled_edges": 512,
+    "sampled_nodes": 242
+  },
+  {
+    "graph_id": 110,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33304,
+    "sampled_edges": 512,
+    "sampled_nodes": 259
+  },
+  {
+    "graph_id": 111,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39162,
+    "sampled_edges": 512,
+    "sampled_nodes": 227
+  },
+  {
+    "graph_id": 112,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 42469,
+    "sampled_edges": 512,
+    "sampled_nodes": 227
+  },
+  {
+    "graph_id": 113,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 30183,
+    "sampled_edges": 512,
+    "sampled_nodes": 297
+  },
+  {
+    "graph_id": 114,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 34271,
+    "sampled_edges": 512,
+    "sampled_nodes": 245
+  },
+  {
+    "graph_id": 115,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 68896,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 116,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 35724,
+    "sampled_edges": 512,
+    "sampled_nodes": 265
+  },
+  {
+    "graph_id": 117,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33856,
+    "sampled_edges": 512,
+    "sampled_nodes": 257
+  },
+  {
+    "graph_id": 118,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 38123,
+    "sampled_edges": 512,
+    "sampled_nodes": 245
+  },
+  {
+    "graph_id": 119,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32975,
+    "sampled_edges": 512,
+    "sampled_nodes": 267
+  },
+  {
+    "graph_id": 120,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32532,
+    "sampled_edges": 512,
+    "sampled_nodes": 271
+  },
+  {
+    "graph_id": 121,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 38638,
+    "sampled_edges": 512,
+    "sampled_nodes": 224
+  },
+  {
+    "graph_id": 122,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39410,
+    "sampled_edges": 512,
+    "sampled_nodes": 233
+  },
+  {
+    "graph_id": 123,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40337,
+    "sampled_edges": 512,
+    "sampled_nodes": 223
+  },
+  {
+    "graph_id": 124,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39007,
+    "sampled_edges": 512,
+    "sampled_nodes": 227
+  },
+  {
+    "graph_id": 125,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32126,
+    "sampled_edges": 512,
+    "sampled_nodes": 247
+  },
+  {
+    "graph_id": 126,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33806,
+    "sampled_edges": 512,
+    "sampled_nodes": 251
+  },
+  {
+    "graph_id": 127,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 36014,
+    "sampled_edges": 512,
+    "sampled_nodes": 244
+  },
+  {
+    "graph_id": 128,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33293,
+    "sampled_edges": 512,
+    "sampled_nodes": 275
+  },
+  {
+    "graph_id": 129,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 38229,
+    "sampled_edges": 512,
+    "sampled_nodes": 272
+  },
+  {
+    "graph_id": 130,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39991,
+    "sampled_edges": 512,
+    "sampled_nodes": 230
+  },
+  {
+    "graph_id": 131,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 38885,
+    "sampled_edges": 512,
+    "sampled_nodes": 235
+  },
+  {
+    "graph_id": 132,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 34939,
+    "sampled_edges": 512,
+    "sampled_nodes": 260
+  },
+  {
+    "graph_id": 133,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 31601,
+    "sampled_edges": 512,
+    "sampled_nodes": 288
+  },
+  {
+    "graph_id": 134,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 41380,
+    "sampled_edges": 512,
+    "sampled_nodes": 233
+  },
+  {
+    "graph_id": 135,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 63879,
+    "sampled_edges": 512,
+    "sampled_nodes": 180
+  },
+  {
+    "graph_id": 136,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39227,
+    "sampled_edges": 512,
+    "sampled_nodes": 237
+  },
+  {
+    "graph_id": 137,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 38311,
+    "sampled_edges": 512,
+    "sampled_nodes": 233
+  },
+  {
+    "graph_id": 138,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39140,
+    "sampled_edges": 512,
+    "sampled_nodes": 224
+  },
+  {
+    "graph_id": 139,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 43475,
+    "sampled_edges": 512,
+    "sampled_nodes": 229
+  },
+  {
+    "graph_id": 140,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32384,
+    "sampled_edges": 512,
+    "sampled_nodes": 266
+  },
+  {
+    "graph_id": 141,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40399,
+    "sampled_edges": 512,
+    "sampled_nodes": 235
+  },
+  {
+    "graph_id": 142,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 35613,
+    "sampled_edges": 512,
+    "sampled_nodes": 262
+  },
+  {
+    "graph_id": 143,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 42007,
+    "sampled_edges": 512,
+    "sampled_nodes": 226
+  },
+  {
+    "graph_id": 144,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32748,
+    "sampled_edges": 512,
+    "sampled_nodes": 278
+  },
+  {
+    "graph_id": 145,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39565,
+    "sampled_edges": 512,
+    "sampled_nodes": 233
+  },
+  {
+    "graph_id": 146,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 38096,
+    "sampled_edges": 512,
+    "sampled_nodes": 258
+  },
+  {
+    "graph_id": 147,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40453,
+    "sampled_edges": 512,
+    "sampled_nodes": 216
+  },
+  {
+    "graph_id": 148,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 41378,
+    "sampled_edges": 512,
+    "sampled_nodes": 238
+  },
+  {
+    "graph_id": 149,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39729,
+    "sampled_edges": 512,
+    "sampled_nodes": 242
+  },
+  {
+    "graph_id": 150,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 34702,
+    "sampled_edges": 512,
+    "sampled_nodes": 264
+  },
+  {
+    "graph_id": 151,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33542,
+    "sampled_edges": 512,
+    "sampled_nodes": 255
+  },
+  {
+    "graph_id": 152,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 41256,
+    "sampled_edges": 512,
+    "sampled_nodes": 237
+  },
+  {
+    "graph_id": 153,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 41290,
+    "sampled_edges": 512,
+    "sampled_nodes": 234
+  },
+  {
+    "graph_id": 154,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40058,
+    "sampled_edges": 512,
+    "sampled_nodes": 270
+  },
+  {
+    "graph_id": 155,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33027,
+    "sampled_edges": 512,
+    "sampled_nodes": 272
+  },
+  {
+    "graph_id": 156,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40321,
+    "sampled_edges": 512,
+    "sampled_nodes": 242
+  },
+  {
+    "graph_id": 157,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33550,
+    "sampled_edges": 512,
+    "sampled_nodes": 277
+  },
+  {
+    "graph_id": 158,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 31450,
+    "sampled_edges": 512,
+    "sampled_nodes": 270
+  },
+  {
+    "graph_id": 159,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39829,
+    "sampled_edges": 512,
+    "sampled_nodes": 249
+  },
+  {
+    "graph_id": 160,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 38549,
+    "sampled_edges": 512,
+    "sampled_nodes": 234
+  },
+  {
+    "graph_id": 161,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 41619,
+    "sampled_edges": 512,
+    "sampled_nodes": 229
+  },
+  {
+    "graph_id": 162,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33528,
+    "sampled_edges": 512,
+    "sampled_nodes": 250
+  },
+  {
+    "graph_id": 163,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33517,
+    "sampled_edges": 512,
+    "sampled_nodes": 273
+  },
+  {
+    "graph_id": 164,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 31522,
+    "sampled_edges": 512,
+    "sampled_nodes": 269
+  },
+  {
+    "graph_id": 165,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 35725,
+    "sampled_edges": 512,
+    "sampled_nodes": 260
+  },
+  {
+    "graph_id": 166,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 41424,
+    "sampled_edges": 512,
+    "sampled_nodes": 258
+  },
+  {
+    "graph_id": 167,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 43242,
+    "sampled_edges": 512,
+    "sampled_nodes": 212
+  },
+  {
+    "graph_id": 168,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40319,
+    "sampled_edges": 512,
+    "sampled_nodes": 252
+  },
+  {
+    "graph_id": 169,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32615,
+    "sampled_edges": 512,
+    "sampled_nodes": 260
+  },
+  {
+    "graph_id": 170,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33074,
+    "sampled_edges": 512,
+    "sampled_nodes": 253
+  },
+  {
+    "graph_id": 171,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32016,
+    "sampled_edges": 512,
+    "sampled_nodes": 270
+  },
+  {
+    "graph_id": 172,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32590,
+    "sampled_edges": 512,
+    "sampled_nodes": 262
+  },
+  {
+    "graph_id": 173,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33466,
+    "sampled_edges": 512,
+    "sampled_nodes": 261
+  },
+  {
+    "graph_id": 174,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 31208,
+    "sampled_edges": 512,
+    "sampled_nodes": 255
+  },
+  {
+    "graph_id": 175,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40000,
+    "sampled_edges": 512,
+    "sampled_nodes": 222
+  },
+  {
+    "graph_id": 176,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32001,
+    "sampled_edges": 512,
+    "sampled_nodes": 267
+  },
+  {
+    "graph_id": 177,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 37768,
+    "sampled_edges": 512,
+    "sampled_nodes": 258
+  },
+  {
+    "graph_id": 178,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33217,
+    "sampled_edges": 512,
+    "sampled_nodes": 267
+  },
+  {
+    "graph_id": 179,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32930,
+    "sampled_edges": 512,
+    "sampled_nodes": 249
+  },
+  {
+    "graph_id": 180,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32457,
+    "sampled_edges": 512,
+    "sampled_nodes": 265
+  },
+  {
+    "graph_id": 181,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39596,
+    "sampled_edges": 512,
+    "sampled_nodes": 218
+  },
+  {
+    "graph_id": 182,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39831,
+    "sampled_edges": 512,
+    "sampled_nodes": 229
+  },
+  {
+    "graph_id": 183,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 34197,
+    "sampled_edges": 512,
+    "sampled_nodes": 266
+  },
+  {
+    "graph_id": 184,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39412,
+    "sampled_edges": 512,
+    "sampled_nodes": 231
+  },
+  {
+    "graph_id": 185,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33831,
+    "sampled_edges": 512,
+    "sampled_nodes": 276
+  },
+  {
+    "graph_id": 186,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 40070,
+    "sampled_edges": 512,
+    "sampled_nodes": 250
+  },
+  {
+    "graph_id": 187,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 32279,
+    "sampled_edges": 512,
+    "sampled_nodes": 269
+  },
+  {
+    "graph_id": 188,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 34549,
+    "sampled_edges": 512,
+    "sampled_nodes": 229
+  },
+  {
+    "graph_id": 189,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33497,
+    "sampled_edges": 512,
+    "sampled_nodes": 260
+  },
+  {
+    "graph_id": 190,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33711,
+    "sampled_edges": 512,
+    "sampled_nodes": 263
+  },
+  {
+    "graph_id": 191,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33213,
+    "sampled_edges": 512,
+    "sampled_nodes": 273
+  },
+  {
+    "graph_id": 192,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 34305,
+    "sampled_edges": 512,
+    "sampled_nodes": 274
+  },
+  {
+    "graph_id": 193,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 41739,
+    "sampled_edges": 512,
+    "sampled_nodes": 227
+  },
+  {
+    "graph_id": 194,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39349,
+    "sampled_edges": 512,
+    "sampled_nodes": 219
+  },
+  {
+    "graph_id": 195,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39803,
+    "sampled_edges": 512,
+    "sampled_nodes": 234
+  },
+  {
+    "graph_id": 196,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 33632,
+    "sampled_edges": 512,
+    "sampled_nodes": 266
+  },
+  {
+    "graph_id": 197,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39712,
+    "sampled_edges": 512,
+    "sampled_nodes": 235
+  },
+  {
+    "graph_id": 198,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 34456,
+    "sampled_edges": 512,
+    "sampled_nodes": 252
+  },
+  {
+    "graph_id": 199,
+    "scenario": "GMail",
+    "label": 0,
+    "raw_edges": 39951,
+    "sampled_edges": 512,
+    "sampled_nodes": 232
+  },
+  {
+    "graph_id": 200,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 105602,
+    "sampled_edges": 512,
+    "sampled_nodes": 256
+  },
+  {
+    "graph_id": 201,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 98160,
+    "sampled_edges": 512,
+    "sampled_nodes": 186
+  },
+  {
+    "graph_id": 202,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 134542,
+    "sampled_edges": 512,
+    "sampled_nodes": 147
+  },
+  {
+    "graph_id": 203,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 129394,
+    "sampled_edges": 512,
+    "sampled_nodes": 182
+  },
+  {
+    "graph_id": 204,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 94476,
+    "sampled_edges": 512,
+    "sampled_nodes": 175
+  },
+  {
+    "graph_id": 205,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 96446,
+    "sampled_edges": 512,
+    "sampled_nodes": 197
+  },
+  {
+    "graph_id": 206,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 92851,
+    "sampled_edges": 512,
+    "sampled_nodes": 184
+  },
+  {
+    "graph_id": 207,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 106737,
+    "sampled_edges": 512,
+    "sampled_nodes": 211
+  },
+  {
+    "graph_id": 208,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 92014,
+    "sampled_edges": 512,
+    "sampled_nodes": 208
+  },
+  {
+    "graph_id": 209,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 121193,
+    "sampled_edges": 512,
+    "sampled_nodes": 140
+  },
+  {
+    "graph_id": 210,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 107258,
+    "sampled_edges": 512,
+    "sampled_nodes": 175
+  },
+  {
+    "graph_id": 211,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 115398,
+    "sampled_edges": 512,
+    "sampled_nodes": 187
+  },
+  {
+    "graph_id": 212,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 92117,
+    "sampled_edges": 512,
+    "sampled_nodes": 195
+  },
+  {
+    "graph_id": 213,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 94266,
+    "sampled_edges": 512,
+    "sampled_nodes": 191
+  },
+  {
+    "graph_id": 214,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 95402,
+    "sampled_edges": 512,
+    "sampled_nodes": 190
+  },
+  {
+    "graph_id": 215,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 92306,
+    "sampled_edges": 512,
+    "sampled_nodes": 179
+  },
+  {
+    "graph_id": 216,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 106348,
+    "sampled_edges": 512,
+    "sampled_nodes": 226
+  },
+  {
+    "graph_id": 217,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 99832,
+    "sampled_edges": 512,
+    "sampled_nodes": 225
+  },
+  {
+    "graph_id": 218,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 243774,
+    "sampled_edges": 512,
+    "sampled_nodes": 80
+  },
+  {
+    "graph_id": 219,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 94414,
+    "sampled_edges": 512,
+    "sampled_nodes": 202
+  },
+  {
+    "graph_id": 220,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 96810,
+    "sampled_edges": 512,
+    "sampled_nodes": 217
+  },
+  {
+    "graph_id": 221,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 126699,
+    "sampled_edges": 512,
+    "sampled_nodes": 149
+  },
+  {
+    "graph_id": 222,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 91792,
+    "sampled_edges": 512,
+    "sampled_nodes": 176
+  },
+  {
+    "graph_id": 223,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 92458,
+    "sampled_edges": 512,
+    "sampled_nodes": 173
+  },
+  {
+    "graph_id": 224,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 91478,
+    "sampled_edges": 512,
+    "sampled_nodes": 198
+  },
+  {
+    "graph_id": 225,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 93880,
+    "sampled_edges": 512,
+    "sampled_nodes": 175
+  },
+  {
+    "graph_id": 226,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 121657,
+    "sampled_edges": 512,
+    "sampled_nodes": 164
+  },
+  {
+    "graph_id": 227,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 126463,
+    "sampled_edges": 512,
+    "sampled_nodes": 147
+  },
+  {
+    "graph_id": 228,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 91611,
+    "sampled_edges": 512,
+    "sampled_nodes": 178
+  },
+  {
+    "graph_id": 229,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 111095,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 230,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 90616,
+    "sampled_edges": 512,
+    "sampled_nodes": 179
+  },
+  {
+    "graph_id": 231,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 115118,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 232,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 93122,
+    "sampled_edges": 512,
+    "sampled_nodes": 180
+  },
+  {
+    "graph_id": 233,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 104782,
+    "sampled_edges": 512,
+    "sampled_nodes": 244
+  },
+  {
+    "graph_id": 234,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 139658,
+    "sampled_edges": 512,
+    "sampled_nodes": 249
+  },
+  {
+    "graph_id": 235,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 95192,
+    "sampled_edges": 512,
+    "sampled_nodes": 189
+  },
+  {
+    "graph_id": 236,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 151411,
+    "sampled_edges": 512,
+    "sampled_nodes": 132
+  },
+  {
+    "graph_id": 237,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 90519,
+    "sampled_edges": 512,
+    "sampled_nodes": 195
+  },
+  {
+    "graph_id": 238,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 153942,
+    "sampled_edges": 512,
+    "sampled_nodes": 138
+  },
+  {
+    "graph_id": 239,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 125433,
+    "sampled_edges": 512,
+    "sampled_nodes": 160
+  },
+  {
+    "graph_id": 240,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 128713,
+    "sampled_edges": 512,
+    "sampled_nodes": 162
+  },
+  {
+    "graph_id": 241,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 98236,
+    "sampled_edges": 512,
+    "sampled_nodes": 197
+  },
+  {
+    "graph_id": 242,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 96169,
+    "sampled_edges": 512,
+    "sampled_nodes": 182
+  },
+  {
+    "graph_id": 243,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 140834,
+    "sampled_edges": 512,
+    "sampled_nodes": 230
+  },
+  {
+    "graph_id": 244,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 114812,
+    "sampled_edges": 512,
+    "sampled_nodes": 178
+  },
+  {
+    "graph_id": 245,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 93468,
+    "sampled_edges": 512,
+    "sampled_nodes": 189
+  },
+  {
+    "graph_id": 246,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 96112,
+    "sampled_edges": 512,
+    "sampled_nodes": 185
+  },
+  {
+    "graph_id": 247,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 124595,
+    "sampled_edges": 512,
+    "sampled_nodes": 152
+  },
+  {
+    "graph_id": 248,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 121286,
+    "sampled_edges": 512,
+    "sampled_nodes": 169
+  },
+  {
+    "graph_id": 249,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 93946,
+    "sampled_edges": 512,
+    "sampled_nodes": 163
+  },
+  {
+    "graph_id": 250,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 111976,
+    "sampled_edges": 512,
+    "sampled_nodes": 166
+  },
+  {
+    "graph_id": 251,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 127174,
+    "sampled_edges": 512,
+    "sampled_nodes": 165
+  },
+  {
+    "graph_id": 252,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 156651,
+    "sampled_edges": 512,
+    "sampled_nodes": 127
+  },
+  {
+    "graph_id": 253,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 96679,
+    "sampled_edges": 512,
+    "sampled_nodes": 164
+  },
+  {
+    "graph_id": 254,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 97968,
+    "sampled_edges": 512,
+    "sampled_nodes": 179
+  },
+  {
+    "graph_id": 255,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 95938,
+    "sampled_edges": 512,
+    "sampled_nodes": 213
+  },
+  {
+    "graph_id": 256,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 134530,
+    "sampled_edges": 512,
+    "sampled_nodes": 186
+  },
+  {
+    "graph_id": 257,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 91797,
+    "sampled_edges": 512,
+    "sampled_nodes": 171
+  },
+  {
+    "graph_id": 258,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 124685,
+    "sampled_edges": 512,
+    "sampled_nodes": 163
+  },
+  {
+    "graph_id": 259,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 128218,
+    "sampled_edges": 512,
+    "sampled_nodes": 145
+  },
+  {
+    "graph_id": 260,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 103568,
+    "sampled_edges": 512,
+    "sampled_nodes": 225
+  },
+  {
+    "graph_id": 261,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 111160,
+    "sampled_edges": 512,
+    "sampled_nodes": 180
+  },
+  {
+    "graph_id": 262,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 96193,
+    "sampled_edges": 512,
+    "sampled_nodes": 179
+  },
+  {
+    "graph_id": 263,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 95850,
+    "sampled_edges": 512,
+    "sampled_nodes": 198
+  },
+  {
+    "graph_id": 264,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 155185,
+    "sampled_edges": 512,
+    "sampled_nodes": 133
+  },
+  {
+    "graph_id": 265,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 96217,
+    "sampled_edges": 512,
+    "sampled_nodes": 171
+  },
+  {
+    "graph_id": 266,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 126613,
+    "sampled_edges": 512,
+    "sampled_nodes": 144
+  },
+  {
+    "graph_id": 267,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 92583,
+    "sampled_edges": 512,
+    "sampled_nodes": 194
+  },
+  {
+    "graph_id": 268,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 130997,
+    "sampled_edges": 512,
+    "sampled_nodes": 204
+  },
+  {
+    "graph_id": 269,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 100201,
+    "sampled_edges": 512,
+    "sampled_nodes": 210
+  },
+  {
+    "graph_id": 270,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 101056,
+    "sampled_edges": 512,
+    "sampled_nodes": 188
+  },
+  {
+    "graph_id": 271,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 114161,
+    "sampled_edges": 512,
+    "sampled_nodes": 174
+  },
+  {
+    "graph_id": 272,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 152627,
+    "sampled_edges": 512,
+    "sampled_nodes": 126
+  },
+  {
+    "graph_id": 273,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 96415,
+    "sampled_edges": 512,
+    "sampled_nodes": 167
+  },
+  {
+    "graph_id": 274,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 92602,
+    "sampled_edges": 512,
+    "sampled_nodes": 209
+  },
+  {
+    "graph_id": 275,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 126518,
+    "sampled_edges": 512,
+    "sampled_nodes": 150
+  },
+  {
+    "graph_id": 276,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 130989,
+    "sampled_edges": 512,
+    "sampled_nodes": 195
+  },
+  {
+    "graph_id": 277,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 130297,
+    "sampled_edges": 512,
+    "sampled_nodes": 157
+  },
+  {
+    "graph_id": 278,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 102632,
+    "sampled_edges": 512,
+    "sampled_nodes": 183
+  },
+  {
+    "graph_id": 279,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 127353,
+    "sampled_edges": 512,
+    "sampled_nodes": 151
+  },
+  {
+    "graph_id": 280,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 113169,
+    "sampled_edges": 512,
+    "sampled_nodes": 158
+  },
+  {
+    "graph_id": 281,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 95532,
+    "sampled_edges": 512,
+    "sampled_nodes": 177
+  },
+  {
+    "graph_id": 282,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 95747,
+    "sampled_edges": 512,
+    "sampled_nodes": 209
+  },
+  {
+    "graph_id": 283,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 100558,
+    "sampled_edges": 512,
+    "sampled_nodes": 226
+  },
+  {
+    "graph_id": 284,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 127011,
+    "sampled_edges": 512,
+    "sampled_nodes": 153
+  },
+  {
+    "graph_id": 285,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 130963,
+    "sampled_edges": 512,
+    "sampled_nodes": 149
+  },
+  {
+    "graph_id": 286,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 101022,
+    "sampled_edges": 512,
+    "sampled_nodes": 179
+  },
+  {
+    "graph_id": 287,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 99210,
+    "sampled_edges": 512,
+    "sampled_nodes": 214
+  },
+  {
+    "graph_id": 288,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 94666,
+    "sampled_edges": 512,
+    "sampled_nodes": 172
+  },
+  {
+    "graph_id": 289,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 189558,
+    "sampled_edges": 512,
+    "sampled_nodes": 120
+  },
+  {
+    "graph_id": 290,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 137375,
+    "sampled_edges": 512,
+    "sampled_nodes": 157
+  },
+  {
+    "graph_id": 291,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 163590,
+    "sampled_edges": 512,
+    "sampled_nodes": 271
+  },
+  {
+    "graph_id": 292,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 95377,
+    "sampled_edges": 512,
+    "sampled_nodes": 183
+  },
+  {
+    "graph_id": 293,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 90984,
+    "sampled_edges": 512,
+    "sampled_nodes": 194
+  },
+  {
+    "graph_id": 294,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 125352,
+    "sampled_edges": 512,
+    "sampled_nodes": 154
+  },
+  {
+    "graph_id": 295,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 99598,
+    "sampled_edges": 512,
+    "sampled_nodes": 179
+  },
+  {
+    "graph_id": 296,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 112348,
+    "sampled_edges": 512,
+    "sampled_nodes": 161
+  },
+  {
+    "graph_id": 297,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 92168,
+    "sampled_edges": 512,
+    "sampled_nodes": 185
+  },
+  {
+    "graph_id": 298,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 130108,
+    "sampled_edges": 512,
+    "sampled_nodes": 152
+  },
+  {
+    "graph_id": 299,
+    "scenario": "VGame",
+    "label": 0,
+    "raw_edges": 128147,
+    "sampled_edges": 512,
+    "sampled_nodes": 163
+  },
+  {
+    "graph_id": 300,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28527,
+    "sampled_edges": 512,
+    "sampled_nodes": 407
+  },
+  {
+    "graph_id": 301,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28441,
+    "sampled_edges": 512,
+    "sampled_nodes": 402
+  },
+  {
+    "graph_id": 302,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28531,
+    "sampled_edges": 512,
+    "sampled_nodes": 404
+  },
+  {
+    "graph_id": 303,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28351,
+    "sampled_edges": 512,
+    "sampled_nodes": 417
+  },
+  {
+    "graph_id": 304,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28459,
+    "sampled_edges": 512,
+    "sampled_nodes": 402
+  },
+  {
+    "graph_id": 305,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28550,
+    "sampled_edges": 512,
+    "sampled_nodes": 406
+  },
+  {
+    "graph_id": 306,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28361,
+    "sampled_edges": 512,
+    "sampled_nodes": 416
+  },
+  {
+    "graph_id": 307,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28657,
+    "sampled_edges": 512,
+    "sampled_nodes": 405
+  },
+  {
+    "graph_id": 308,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28433,
+    "sampled_edges": 512,
+    "sampled_nodes": 406
+  },
+  {
+    "graph_id": 309,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28389,
+    "sampled_edges": 512,
+    "sampled_nodes": 412
+  },
+  {
+    "graph_id": 310,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28362,
+    "sampled_edges": 512,
+    "sampled_nodes": 426
+  },
+  {
+    "graph_id": 311,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28414,
+    "sampled_edges": 512,
+    "sampled_nodes": 414
+  },
+  {
+    "graph_id": 312,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28519,
+    "sampled_edges": 512,
+    "sampled_nodes": 391
+  },
+  {
+    "graph_id": 313,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28516,
+    "sampled_edges": 512,
+    "sampled_nodes": 389
+  },
+  {
+    "graph_id": 314,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28566,
+    "sampled_edges": 512,
+    "sampled_nodes": 419
+  },
+  {
+    "graph_id": 315,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28240,
+    "sampled_edges": 512,
+    "sampled_nodes": 398
+  },
+  {
+    "graph_id": 316,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28509,
+    "sampled_edges": 512,
+    "sampled_nodes": 401
+  },
+  {
+    "graph_id": 317,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28435,
+    "sampled_edges": 512,
+    "sampled_nodes": 392
+  },
+  {
+    "graph_id": 318,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28452,
+    "sampled_edges": 512,
+    "sampled_nodes": 398
+  },
+  {
+    "graph_id": 319,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28407,
+    "sampled_edges": 512,
+    "sampled_nodes": 407
+  },
+  {
+    "graph_id": 320,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28543,
+    "sampled_edges": 512,
+    "sampled_nodes": 398
+  },
+  {
+    "graph_id": 321,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28431,
+    "sampled_edges": 512,
+    "sampled_nodes": 395
+  },
+  {
+    "graph_id": 322,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28457,
+    "sampled_edges": 512,
+    "sampled_nodes": 418
+  },
+  {
+    "graph_id": 323,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28440,
+    "sampled_edges": 512,
+    "sampled_nodes": 406
+  },
+  {
+    "graph_id": 324,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28569,
+    "sampled_edges": 512,
+    "sampled_nodes": 390
+  },
+  {
+    "graph_id": 325,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28461,
+    "sampled_edges": 512,
+    "sampled_nodes": 391
+  },
+  {
+    "graph_id": 326,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28497,
+    "sampled_edges": 512,
+    "sampled_nodes": 389
+  },
+  {
+    "graph_id": 327,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28518,
+    "sampled_edges": 512,
+    "sampled_nodes": 397
+  },
+  {
+    "graph_id": 328,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28607,
+    "sampled_edges": 512,
+    "sampled_nodes": 392
+  },
+  {
+    "graph_id": 329,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28312,
+    "sampled_edges": 512,
+    "sampled_nodes": 389
+  },
+  {
+    "graph_id": 330,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28485,
+    "sampled_edges": 512,
+    "sampled_nodes": 400
+  },
+  {
+    "graph_id": 331,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 27711,
+    "sampled_edges": 512,
+    "sampled_nodes": 384
+  },
+  {
+    "graph_id": 332,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28594,
+    "sampled_edges": 512,
+    "sampled_nodes": 408
+  },
+  {
+    "graph_id": 333,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 27355,
+    "sampled_edges": 512,
+    "sampled_nodes": 417
+  },
+  {
+    "graph_id": 334,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 27215,
+    "sampled_edges": 512,
+    "sampled_nodes": 412
+  },
+  {
+    "graph_id": 335,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28526,
+    "sampled_edges": 512,
+    "sampled_nodes": 384
+  },
+  {
+    "graph_id": 336,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28395,
+    "sampled_edges": 512,
+    "sampled_nodes": 410
+  },
+  {
+    "graph_id": 337,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28597,
+    "sampled_edges": 512,
+    "sampled_nodes": 404
+  },
+  {
+    "graph_id": 338,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28464,
+    "sampled_edges": 512,
+    "sampled_nodes": 405
+  },
+  {
+    "graph_id": 339,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28555,
+    "sampled_edges": 512,
+    "sampled_nodes": 384
+  },
+  {
+    "graph_id": 340,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28509,
+    "sampled_edges": 512,
+    "sampled_nodes": 390
+  },
+  {
+    "graph_id": 341,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28483,
+    "sampled_edges": 512,
+    "sampled_nodes": 414
+  },
+  {
+    "graph_id": 342,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28547,
+    "sampled_edges": 512,
+    "sampled_nodes": 406
+  },
+  {
+    "graph_id": 343,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28411,
+    "sampled_edges": 512,
+    "sampled_nodes": 415
+  },
+  {
+    "graph_id": 344,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28412,
+    "sampled_edges": 512,
+    "sampled_nodes": 412
+  },
+  {
+    "graph_id": 345,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28494,
+    "sampled_edges": 512,
+    "sampled_nodes": 406
+  },
+  {
+    "graph_id": 346,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28490,
+    "sampled_edges": 512,
+    "sampled_nodes": 401
+  },
+  {
+    "graph_id": 347,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28442,
+    "sampled_edges": 512,
+    "sampled_nodes": 403
+  },
+  {
+    "graph_id": 348,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28532,
+    "sampled_edges": 512,
+    "sampled_nodes": 398
+  },
+  {
+    "graph_id": 349,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28411,
+    "sampled_edges": 512,
+    "sampled_nodes": 401
+  },
+  {
+    "graph_id": 350,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28327,
+    "sampled_edges": 512,
+    "sampled_nodes": 419
+  },
+  {
+    "graph_id": 351,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28486,
+    "sampled_edges": 512,
+    "sampled_nodes": 396
+  },
+  {
+    "graph_id": 352,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28463,
+    "sampled_edges": 512,
+    "sampled_nodes": 398
+  },
+  {
+    "graph_id": 353,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28565,
+    "sampled_edges": 512,
+    "sampled_nodes": 399
+  },
+  {
+    "graph_id": 354,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28348,
+    "sampled_edges": 512,
+    "sampled_nodes": 405
+  },
+  {
+    "graph_id": 355,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28453,
+    "sampled_edges": 512,
+    "sampled_nodes": 399
+  },
+  {
+    "graph_id": 356,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28550,
+    "sampled_edges": 512,
+    "sampled_nodes": 395
+  },
+  {
+    "graph_id": 357,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28461,
+    "sampled_edges": 512,
+    "sampled_nodes": 386
+  },
+  {
+    "graph_id": 358,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28438,
+    "sampled_edges": 512,
+    "sampled_nodes": 406
+  },
+  {
+    "graph_id": 359,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28401,
+    "sampled_edges": 512,
+    "sampled_nodes": 399
+  },
+  {
+    "graph_id": 360,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28593,
+    "sampled_edges": 512,
+    "sampled_nodes": 389
+  },
+  {
+    "graph_id": 361,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28505,
+    "sampled_edges": 512,
+    "sampled_nodes": 400
+  },
+  {
+    "graph_id": 362,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28529,
+    "sampled_edges": 512,
+    "sampled_nodes": 411
+  },
+  {
+    "graph_id": 363,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28591,
+    "sampled_edges": 512,
+    "sampled_nodes": 398
+  },
+  {
+    "graph_id": 364,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28476,
+    "sampled_edges": 512,
+    "sampled_nodes": 422
+  },
+  {
+    "graph_id": 365,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28450,
+    "sampled_edges": 512,
+    "sampled_nodes": 395
+  },
+  {
+    "graph_id": 366,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28712,
+    "sampled_edges": 512,
+    "sampled_nodes": 410
+  },
+  {
+    "graph_id": 367,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28550,
+    "sampled_edges": 512,
+    "sampled_nodes": 394
+  },
+  {
+    "graph_id": 368,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28463,
+    "sampled_edges": 512,
+    "sampled_nodes": 395
+  },
+  {
+    "graph_id": 369,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28439,
+    "sampled_edges": 512,
+    "sampled_nodes": 402
+  },
+  {
+    "graph_id": 370,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28587,
+    "sampled_edges": 512,
+    "sampled_nodes": 397
+  },
+  {
+    "graph_id": 371,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28388,
+    "sampled_edges": 512,
+    "sampled_nodes": 393
+  },
+  {
+    "graph_id": 372,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28407,
+    "sampled_edges": 512,
+    "sampled_nodes": 405
+  },
+  {
+    "graph_id": 373,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28686,
+    "sampled_edges": 512,
+    "sampled_nodes": 420
+  },
+  {
+    "graph_id": 374,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28484,
+    "sampled_edges": 512,
+    "sampled_nodes": 401
+  },
+  {
+    "graph_id": 375,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28438,
+    "sampled_edges": 512,
+    "sampled_nodes": 407
+  },
+  {
+    "graph_id": 376,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28303,
+    "sampled_edges": 512,
+    "sampled_nodes": 415
+  },
+  {
+    "graph_id": 377,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28480,
+    "sampled_edges": 512,
+    "sampled_nodes": 401
+  },
+  {
+    "graph_id": 378,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28533,
+    "sampled_edges": 512,
+    "sampled_nodes": 403
+  },
+  {
+    "graph_id": 379,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28396,
+    "sampled_edges": 512,
+    "sampled_nodes": 409
+  },
+  {
+    "graph_id": 380,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28584,
+    "sampled_edges": 512,
+    "sampled_nodes": 412
+  },
+  {
+    "graph_id": 381,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28320,
+    "sampled_edges": 512,
+    "sampled_nodes": 411
+  },
+  {
+    "graph_id": 382,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28556,
+    "sampled_edges": 512,
+    "sampled_nodes": 400
+  },
+  {
+    "graph_id": 383,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 27261,
+    "sampled_edges": 512,
+    "sampled_nodes": 393
+  },
+  {
+    "graph_id": 384,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28446,
+    "sampled_edges": 512,
+    "sampled_nodes": 403
+  },
+  {
+    "graph_id": 385,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28441,
+    "sampled_edges": 512,
+    "sampled_nodes": 397
+  },
+  {
+    "graph_id": 386,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28466,
+    "sampled_edges": 512,
+    "sampled_nodes": 399
+  },
+  {
+    "graph_id": 387,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28448,
+    "sampled_edges": 512,
+    "sampled_nodes": 392
+  },
+  {
+    "graph_id": 388,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 27428,
+    "sampled_edges": 512,
+    "sampled_nodes": 391
+  },
+  {
+    "graph_id": 389,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28555,
+    "sampled_edges": 512,
+    "sampled_nodes": 404
+  },
+  {
+    "graph_id": 390,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28519,
+    "sampled_edges": 512,
+    "sampled_nodes": 397
+  },
+  {
+    "graph_id": 391,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28409,
+    "sampled_edges": 512,
+    "sampled_nodes": 390
+  },
+  {
+    "graph_id": 392,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28554,
+    "sampled_edges": 512,
+    "sampled_nodes": 398
+  },
+  {
+    "graph_id": 393,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28472,
+    "sampled_edges": 512,
+    "sampled_nodes": 424
+  },
+  {
+    "graph_id": 394,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28490,
+    "sampled_edges": 512,
+    "sampled_nodes": 391
+  },
+  {
+    "graph_id": 395,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28329,
+    "sampled_edges": 512,
+    "sampled_nodes": 405
+  },
+  {
+    "graph_id": 396,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28587,
+    "sampled_edges": 512,
+    "sampled_nodes": 394
+  },
+  {
+    "graph_id": 397,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28534,
+    "sampled_edges": 512,
+    "sampled_nodes": 426
+  },
+  {
+    "graph_id": 398,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28493,
+    "sampled_edges": 512,
+    "sampled_nodes": 410
+  },
+  {
+    "graph_id": 399,
+    "scenario": "Drive-by-download attack",
+    "label": 1,
+    "raw_edges": 28369,
+    "sampled_edges": 512,
+    "sampled_nodes": 402
+  },
+  {
+    "graph_id": 400,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 382567,
+    "sampled_edges": 512,
+    "sampled_nodes": 90
+  },
+  {
+    "graph_id": 401,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 376786,
+    "sampled_edges": 512,
+    "sampled_nodes": 91
+  },
+  {
+    "graph_id": 402,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 265625,
+    "sampled_edges": 512,
+    "sampled_nodes": 110
+  },
+  {
+    "graph_id": 403,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 398681,
+    "sampled_edges": 512,
+    "sampled_nodes": 96
+  },
+  {
+    "graph_id": 404,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 410265,
+    "sampled_edges": 512,
+    "sampled_nodes": 82
+  },
+  {
+    "graph_id": 405,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 408251,
+    "sampled_edges": 512,
+    "sampled_nodes": 91
+  },
+  {
+    "graph_id": 406,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 352892,
+    "sampled_edges": 512,
+    "sampled_nodes": 82
+  },
+  {
+    "graph_id": 407,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 382659,
+    "sampled_edges": 512,
+    "sampled_nodes": 85
+  },
+  {
+    "graph_id": 408,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 380774,
+    "sampled_edges": 512,
+    "sampled_nodes": 93
+  },
+  {
+    "graph_id": 409,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 421810,
+    "sampled_edges": 512,
+    "sampled_nodes": 81
+  },
+  {
+    "graph_id": 410,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 308258,
+    "sampled_edges": 512,
+    "sampled_nodes": 97
+  },
+  {
+    "graph_id": 411,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 352540,
+    "sampled_edges": 512,
+    "sampled_nodes": 102
+  },
+  {
+    "graph_id": 412,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 301458,
+    "sampled_edges": 512,
+    "sampled_nodes": 104
+  },
+  {
+    "graph_id": 413,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 357046,
+    "sampled_edges": 512,
+    "sampled_nodes": 101
+  },
+  {
+    "graph_id": 414,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 322897,
+    "sampled_edges": 512,
+    "sampled_nodes": 88
+  },
+  {
+    "graph_id": 415,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 386184,
+    "sampled_edges": 512,
+    "sampled_nodes": 95
+  },
+  {
+    "graph_id": 416,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 354838,
+    "sampled_edges": 512,
+    "sampled_nodes": 88
+  },
+  {
+    "graph_id": 417,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 449477,
+    "sampled_edges": 512,
+    "sampled_nodes": 76
+  },
+  {
+    "graph_id": 418,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 372142,
+    "sampled_edges": 512,
+    "sampled_nodes": 116
+  },
+  {
+    "graph_id": 419,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 457638,
+    "sampled_edges": 512,
+    "sampled_nodes": 77
+  },
+  {
+    "graph_id": 420,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 522819,
+    "sampled_edges": 512,
+    "sampled_nodes": 87
+  },
+  {
+    "graph_id": 421,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 402137,
+    "sampled_edges": 512,
+    "sampled_nodes": 82
+  },
+  {
+    "graph_id": 422,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 316211,
+    "sampled_edges": 512,
+    "sampled_nodes": 114
+  },
+  {
+    "graph_id": 423,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 265955,
+    "sampled_edges": 512,
+    "sampled_nodes": 115
+  },
+  {
+    "graph_id": 424,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 372737,
+    "sampled_edges": 512,
+    "sampled_nodes": 103
+  },
+  {
+    "graph_id": 425,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 322692,
+    "sampled_edges": 512,
+    "sampled_nodes": 104
+  },
+  {
+    "graph_id": 426,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 308444,
+    "sampled_edges": 512,
+    "sampled_nodes": 97
+  },
+  {
+    "graph_id": 427,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 331386,
+    "sampled_edges": 512,
+    "sampled_nodes": 88
+  },
+  {
+    "graph_id": 428,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 278853,
+    "sampled_edges": 512,
+    "sampled_nodes": 106
+  },
+  {
+    "graph_id": 429,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 293985,
+    "sampled_edges": 512,
+    "sampled_nodes": 120
+  },
+  {
+    "graph_id": 430,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 275210,
+    "sampled_edges": 512,
+    "sampled_nodes": 115
+  },
+  {
+    "graph_id": 431,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 359357,
+    "sampled_edges": 512,
+    "sampled_nodes": 104
+  },
+  {
+    "graph_id": 432,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 407480,
+    "sampled_edges": 512,
+    "sampled_nodes": 105
+  },
+  {
+    "graph_id": 433,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 358094,
+    "sampled_edges": 512,
+    "sampled_nodes": 88
+  },
+  {
+    "graph_id": 434,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 255911,
+    "sampled_edges": 512,
+    "sampled_nodes": 112
+  },
+  {
+    "graph_id": 435,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 355149,
+    "sampled_edges": 512,
+    "sampled_nodes": 86
+  },
+  {
+    "graph_id": 436,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 271372,
+    "sampled_edges": 512,
+    "sampled_nodes": 126
+  },
+  {
+    "graph_id": 437,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 224392,
+    "sampled_edges": 512,
+    "sampled_nodes": 141
+  },
+  {
+    "graph_id": 438,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 254849,
+    "sampled_edges": 512,
+    "sampled_nodes": 127
+  },
+  {
+    "graph_id": 439,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 236127,
+    "sampled_edges": 512,
+    "sampled_nodes": 163
+  },
+  {
+    "graph_id": 440,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 347371,
+    "sampled_edges": 512,
+    "sampled_nodes": 93
+  },
+  {
+    "graph_id": 441,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 216762,
+    "sampled_edges": 512,
+    "sampled_nodes": 135
+  },
+  {
+    "graph_id": 442,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 330196,
+    "sampled_edges": 512,
+    "sampled_nodes": 100
+  },
+  {
+    "graph_id": 443,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 225032,
+    "sampled_edges": 512,
+    "sampled_nodes": 143
+  },
+  {
+    "graph_id": 444,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 502936,
+    "sampled_edges": 512,
+    "sampled_nodes": 76
+  },
+  {
+    "graph_id": 445,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 295113,
+    "sampled_edges": 512,
+    "sampled_nodes": 116
+  },
+  {
+    "graph_id": 446,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 320604,
+    "sampled_edges": 512,
+    "sampled_nodes": 93
+  },
+  {
+    "graph_id": 447,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 311250,
+    "sampled_edges": 512,
+    "sampled_nodes": 126
+  },
+  {
+    "graph_id": 448,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 257156,
+    "sampled_edges": 512,
+    "sampled_nodes": 115
+  },
+  {
+    "graph_id": 449,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 252167,
+    "sampled_edges": 512,
+    "sampled_nodes": 115
+  },
+  {
+    "graph_id": 450,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 308416,
+    "sampled_edges": 512,
+    "sampled_nodes": 125
+  },
+  {
+    "graph_id": 451,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 212254,
+    "sampled_edges": 512,
+    "sampled_nodes": 136
+  },
+  {
+    "graph_id": 452,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 287829,
+    "sampled_edges": 512,
+    "sampled_nodes": 114
+  },
+  {
+    "graph_id": 453,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 266696,
+    "sampled_edges": 512,
+    "sampled_nodes": 121
+  },
+  {
+    "graph_id": 454,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 257277,
+    "sampled_edges": 512,
+    "sampled_nodes": 123
+  },
+  {
+    "graph_id": 455,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 200521,
+    "sampled_edges": 512,
+    "sampled_nodes": 154
+  },
+  {
+    "graph_id": 456,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 296089,
+    "sampled_edges": 512,
+    "sampled_nodes": 119
+  },
+  {
+    "graph_id": 457,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 278371,
+    "sampled_edges": 512,
+    "sampled_nodes": 117
+  },
+  {
+    "graph_id": 458,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 443097,
+    "sampled_edges": 512,
+    "sampled_nodes": 92
+  },
+  {
+    "graph_id": 459,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 292450,
+    "sampled_edges": 512,
+    "sampled_nodes": 142
+  },
+  {
+    "graph_id": 460,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 494488,
+    "sampled_edges": 512,
+    "sampled_nodes": 74
+  },
+  {
+    "graph_id": 461,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 366109,
+    "sampled_edges": 512,
+    "sampled_nodes": 97
+  },
+  {
+    "graph_id": 462,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 284681,
+    "sampled_edges": 512,
+    "sampled_nodes": 119
+  },
+  {
+    "graph_id": 463,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 368269,
+    "sampled_edges": 512,
+    "sampled_nodes": 98
+  },
+  {
+    "graph_id": 464,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 293233,
+    "sampled_edges": 512,
+    "sampled_nodes": 110
+  },
+  {
+    "graph_id": 465,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 194992,
+    "sampled_edges": 512,
+    "sampled_nodes": 160
+  },
+  {
+    "graph_id": 466,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 206342,
+    "sampled_edges": 512,
+    "sampled_nodes": 129
+  },
+  {
+    "graph_id": 467,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 216499,
+    "sampled_edges": 512,
+    "sampled_nodes": 125
+  },
+  {
+    "graph_id": 468,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 269295,
+    "sampled_edges": 512,
+    "sampled_nodes": 117
+  },
+  {
+    "graph_id": 469,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 287924,
+    "sampled_edges": 512,
+    "sampled_nodes": 124
+  },
+  {
+    "graph_id": 470,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 275550,
+    "sampled_edges": 512,
+    "sampled_nodes": 118
+  },
+  {
+    "graph_id": 471,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 304219,
+    "sampled_edges": 512,
+    "sampled_nodes": 112
+  },
+  {
+    "graph_id": 472,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 249718,
+    "sampled_edges": 512,
+    "sampled_nodes": 113
+  },
+  {
+    "graph_id": 473,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 215406,
+    "sampled_edges": 512,
+    "sampled_nodes": 135
+  },
+  {
+    "graph_id": 474,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 228188,
+    "sampled_edges": 512,
+    "sampled_nodes": 160
+  },
+  {
+    "graph_id": 475,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 209831,
+    "sampled_edges": 512,
+    "sampled_nodes": 174
+  },
+  {
+    "graph_id": 476,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 191551,
+    "sampled_edges": 512,
+    "sampled_nodes": 140
+  },
+  {
+    "graph_id": 477,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 253128,
+    "sampled_edges": 512,
+    "sampled_nodes": 114
+  },
+  {
+    "graph_id": 478,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 379860,
+    "sampled_edges": 512,
+    "sampled_nodes": 87
+  },
+  {
+    "graph_id": 479,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 293443,
+    "sampled_edges": 512,
+    "sampled_nodes": 90
+  },
+  {
+    "graph_id": 480,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 352548,
+    "sampled_edges": 512,
+    "sampled_nodes": 104
+  },
+  {
+    "graph_id": 481,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 230867,
+    "sampled_edges": 512,
+    "sampled_nodes": 114
+  },
+  {
+    "graph_id": 482,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 235810,
+    "sampled_edges": 512,
+    "sampled_nodes": 117
+  },
+  {
+    "graph_id": 483,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 286969,
+    "sampled_edges": 512,
+    "sampled_nodes": 129
+  },
+  {
+    "graph_id": 484,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 362056,
+    "sampled_edges": 512,
+    "sampled_nodes": 110
+  },
+  {
+    "graph_id": 485,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 318277,
+    "sampled_edges": 512,
+    "sampled_nodes": 103
+  },
+  {
+    "graph_id": 486,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 207336,
+    "sampled_edges": 512,
+    "sampled_nodes": 146
+  },
+  {
+    "graph_id": 487,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 270018,
+    "sampled_edges": 512,
+    "sampled_nodes": 119
+  },
+  {
+    "graph_id": 488,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 288869,
+    "sampled_edges": 512,
+    "sampled_nodes": 97
+  },
+  {
+    "graph_id": 489,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 204869,
+    "sampled_edges": 512,
+    "sampled_nodes": 141
+  },
+  {
+    "graph_id": 490,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 355103,
+    "sampled_edges": 512,
+    "sampled_nodes": 88
+  },
+  {
+    "graph_id": 491,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 289729,
+    "sampled_edges": 512,
+    "sampled_nodes": 121
+  },
+  {
+    "graph_id": 492,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 447517,
+    "sampled_edges": 512,
+    "sampled_nodes": 85
+  },
+  {
+    "graph_id": 493,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 214236,
+    "sampled_edges": 512,
+    "sampled_nodes": 123
+  },
+  {
+    "graph_id": 494,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 345696,
+    "sampled_edges": 512,
+    "sampled_nodes": 96
+  },
+  {
+    "graph_id": 495,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 314420,
+    "sampled_edges": 512,
+    "sampled_nodes": 98
+  },
+  {
+    "graph_id": 496,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 200442,
+    "sampled_edges": 512,
+    "sampled_nodes": 146
+  },
+  {
+    "graph_id": 497,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 192746,
+    "sampled_edges": 512,
+    "sampled_nodes": 146
+  },
+  {
+    "graph_id": 498,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 287792,
+    "sampled_edges": 512,
+    "sampled_nodes": 113
+  },
+  {
+    "graph_id": 499,
+    "scenario": "Download",
+    "label": 0,
+    "raw_edges": 335822,
+    "sampled_edges": 512,
+    "sampled_nodes": 101
+  },
+  {
+    "graph_id": 500,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 246023,
+    "sampled_edges": 512,
+    "sampled_nodes": 129
+  },
+  {
+    "graph_id": 501,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 323912,
+    "sampled_edges": 512,
+    "sampled_nodes": 112
+  },
+  {
+    "graph_id": 502,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 431889,
+    "sampled_edges": 512,
+    "sampled_nodes": 97
+  },
+  {
+    "graph_id": 503,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 566194,
+    "sampled_edges": 512,
+    "sampled_nodes": 76
+  },
+  {
+    "graph_id": 504,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 199731,
+    "sampled_edges": 512,
+    "sampled_nodes": 143
+  },
+  {
+    "graph_id": 505,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 326641,
+    "sampled_edges": 512,
+    "sampled_nodes": 115
+  },
+  {
+    "graph_id": 506,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 322622,
+    "sampled_edges": 512,
+    "sampled_nodes": 107
+  },
+  {
+    "graph_id": 507,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 279729,
+    "sampled_edges": 512,
+    "sampled_nodes": 123
+  },
+  {
+    "graph_id": 508,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 280256,
+    "sampled_edges": 512,
+    "sampled_nodes": 114
+  },
+  {
+    "graph_id": 509,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 537245,
+    "sampled_edges": 512,
+    "sampled_nodes": 103
+  },
+  {
+    "graph_id": 510,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 266002,
+    "sampled_edges": 512,
+    "sampled_nodes": 144
+  },
+  {
+    "graph_id": 511,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 229854,
+    "sampled_edges": 512,
+    "sampled_nodes": 152
+  },
+  {
+    "graph_id": 512,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 220632,
+    "sampled_edges": 512,
+    "sampled_nodes": 159
+  },
+  {
+    "graph_id": 513,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 330601,
+    "sampled_edges": 512,
+    "sampled_nodes": 116
+  },
+  {
+    "graph_id": 514,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 324572,
+    "sampled_edges": 512,
+    "sampled_nodes": 125
+  },
+  {
+    "graph_id": 515,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 235591,
+    "sampled_edges": 512,
+    "sampled_nodes": 143
+  },
+  {
+    "graph_id": 516,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 236559,
+    "sampled_edges": 512,
+    "sampled_nodes": 145
+  },
+  {
+    "graph_id": 517,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 249060,
+    "sampled_edges": 512,
+    "sampled_nodes": 146
+  },
+  {
+    "graph_id": 518,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 247438,
+    "sampled_edges": 512,
+    "sampled_nodes": 142
+  },
+  {
+    "graph_id": 519,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 317643,
+    "sampled_edges": 512,
+    "sampled_nodes": 113
+  },
+  {
+    "graph_id": 520,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 400015,
+    "sampled_edges": 512,
+    "sampled_nodes": 90
+  },
+  {
+    "graph_id": 521,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 296172,
+    "sampled_edges": 512,
+    "sampled_nodes": 116
+  },
+  {
+    "graph_id": 522,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 295571,
+    "sampled_edges": 512,
+    "sampled_nodes": 116
+  },
+  {
+    "graph_id": 523,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 245704,
+    "sampled_edges": 512,
+    "sampled_nodes": 128
+  },
+  {
+    "graph_id": 524,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 326298,
+    "sampled_edges": 512,
+    "sampled_nodes": 112
+  },
+  {
+    "graph_id": 525,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 232771,
+    "sampled_edges": 512,
+    "sampled_nodes": 133
+  },
+  {
+    "graph_id": 526,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 228630,
+    "sampled_edges": 512,
+    "sampled_nodes": 137
+  },
+  {
+    "graph_id": 527,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 308032,
+    "sampled_edges": 512,
+    "sampled_nodes": 121
+  },
+  {
+    "graph_id": 528,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 268053,
+    "sampled_edges": 512,
+    "sampled_nodes": 117
+  },
+  {
+    "graph_id": 529,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 331621,
+    "sampled_edges": 512,
+    "sampled_nodes": 134
+  },
+  {
+    "graph_id": 530,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 287421,
+    "sampled_edges": 512,
+    "sampled_nodes": 116
+  },
+  {
+    "graph_id": 531,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 341048,
+    "sampled_edges": 512,
+    "sampled_nodes": 112
+  },
+  {
+    "graph_id": 532,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 374359,
+    "sampled_edges": 512,
+    "sampled_nodes": 125
+  },
+  {
+    "graph_id": 533,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 289749,
+    "sampled_edges": 512,
+    "sampled_nodes": 132
+  },
+  {
+    "graph_id": 534,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 240735,
+    "sampled_edges": 512,
+    "sampled_nodes": 134
+  },
+  {
+    "graph_id": 535,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 188180,
+    "sampled_edges": 512,
+    "sampled_nodes": 166
+  },
+  {
+    "graph_id": 536,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 285229,
+    "sampled_edges": 512,
+    "sampled_nodes": 122
+  },
+  {
+    "graph_id": 537,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 260423,
+    "sampled_edges": 512,
+    "sampled_nodes": 148
+  },
+  {
+    "graph_id": 538,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 250805,
+    "sampled_edges": 512,
+    "sampled_nodes": 142
+  },
+  {
+    "graph_id": 539,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 325092,
+    "sampled_edges": 512,
+    "sampled_nodes": 119
+  },
+  {
+    "graph_id": 540,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 255321,
+    "sampled_edges": 512,
+    "sampled_nodes": 153
+  },
+  {
+    "graph_id": 541,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 299573,
+    "sampled_edges": 512,
+    "sampled_nodes": 120
+  },
+  {
+    "graph_id": 542,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 367343,
+    "sampled_edges": 512,
+    "sampled_nodes": 102
+  },
+  {
+    "graph_id": 543,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 302194,
+    "sampled_edges": 512,
+    "sampled_nodes": 128
+  },
+  {
+    "graph_id": 544,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 266983,
+    "sampled_edges": 512,
+    "sampled_nodes": 123
+  },
+  {
+    "graph_id": 545,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 232051,
+    "sampled_edges": 512,
+    "sampled_nodes": 152
+  },
+  {
+    "graph_id": 546,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 323715,
+    "sampled_edges": 512,
+    "sampled_nodes": 122
+  },
+  {
+    "graph_id": 547,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 384877,
+    "sampled_edges": 512,
+    "sampled_nodes": 121
+  },
+  {
+    "graph_id": 548,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 324604,
+    "sampled_edges": 512,
+    "sampled_nodes": 127
+  },
+  {
+    "graph_id": 549,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 152438,
+    "sampled_edges": 512,
+    "sampled_nodes": 158
+  },
+  {
+    "graph_id": 550,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 354963,
+    "sampled_edges": 512,
+    "sampled_nodes": 120
+  },
+  {
+    "graph_id": 551,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 207261,
+    "sampled_edges": 512,
+    "sampled_nodes": 138
+  },
+  {
+    "graph_id": 552,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 179131,
+    "sampled_edges": 512,
+    "sampled_nodes": 248
+  },
+  {
+    "graph_id": 553,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 278520,
+    "sampled_edges": 512,
+    "sampled_nodes": 124
+  },
+  {
+    "graph_id": 554,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 302115,
+    "sampled_edges": 512,
+    "sampled_nodes": 123
+  },
+  {
+    "graph_id": 555,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 348643,
+    "sampled_edges": 512,
+    "sampled_nodes": 117
+  },
+  {
+    "graph_id": 556,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 213969,
+    "sampled_edges": 512,
+    "sampled_nodes": 139
+  },
+  {
+    "graph_id": 557,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 212232,
+    "sampled_edges": 512,
+    "sampled_nodes": 192
+  },
+  {
+    "graph_id": 558,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 191272,
+    "sampled_edges": 512,
+    "sampled_nodes": 158
+  },
+  {
+    "graph_id": 559,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 297539,
+    "sampled_edges": 512,
+    "sampled_nodes": 130
+  },
+  {
+    "graph_id": 560,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 283141,
+    "sampled_edges": 512,
+    "sampled_nodes": 125
+  },
+  {
+    "graph_id": 561,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 283803,
+    "sampled_edges": 512,
+    "sampled_nodes": 150
+  },
+  {
+    "graph_id": 562,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 267996,
+    "sampled_edges": 512,
+    "sampled_nodes": 122
+  },
+  {
+    "graph_id": 563,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 249642,
+    "sampled_edges": 512,
+    "sampled_nodes": 140
+  },
+  {
+    "graph_id": 564,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 356292,
+    "sampled_edges": 512,
+    "sampled_nodes": 120
+  },
+  {
+    "graph_id": 565,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 229037,
+    "sampled_edges": 512,
+    "sampled_nodes": 133
+  },
+  {
+    "graph_id": 566,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 272047,
+    "sampled_edges": 512,
+    "sampled_nodes": 120
+  },
+  {
+    "graph_id": 567,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 249705,
+    "sampled_edges": 512,
+    "sampled_nodes": 133
+  },
+  {
+    "graph_id": 568,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 302917,
+    "sampled_edges": 512,
+    "sampled_nodes": 103
+  },
+  {
+    "graph_id": 569,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 297734,
+    "sampled_edges": 512,
+    "sampled_nodes": 134
+  },
+  {
+    "graph_id": 570,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 240054,
+    "sampled_edges": 512,
+    "sampled_nodes": 121
+  },
+  {
+    "graph_id": 571,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 252690,
+    "sampled_edges": 512,
+    "sampled_nodes": 143
+  },
+  {
+    "graph_id": 572,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 193309,
+    "sampled_edges": 512,
+    "sampled_nodes": 130
+  },
+  {
+    "graph_id": 573,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 301372,
+    "sampled_edges": 512,
+    "sampled_nodes": 130
+  },
+  {
+    "graph_id": 574,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 716176,
+    "sampled_edges": 512,
+    "sampled_nodes": 102
+  },
+  {
+    "graph_id": 575,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 239967,
+    "sampled_edges": 512,
+    "sampled_nodes": 135
+  },
+  {
+    "graph_id": 576,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 389837,
+    "sampled_edges": 512,
+    "sampled_nodes": 101
+  },
+  {
+    "graph_id": 577,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 442524,
+    "sampled_edges": 512,
+    "sampled_nodes": 88
+  },
+  {
+    "graph_id": 578,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 342612,
+    "sampled_edges": 512,
+    "sampled_nodes": 115
+  },
+  {
+    "graph_id": 579,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 357293,
+    "sampled_edges": 512,
+    "sampled_nodes": 106
+  },
+  {
+    "graph_id": 580,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 406631,
+    "sampled_edges": 512,
+    "sampled_nodes": 90
+  },
+  {
+    "graph_id": 581,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 252372,
+    "sampled_edges": 512,
+    "sampled_nodes": 143
+  },
+  {
+    "graph_id": 582,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 262472,
+    "sampled_edges": 512,
+    "sampled_nodes": 126
+  },
+  {
+    "graph_id": 583,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 215806,
+    "sampled_edges": 512,
+    "sampled_nodes": 135
+  },
+  {
+    "graph_id": 584,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 192124,
+    "sampled_edges": 512,
+    "sampled_nodes": 165
+  },
+  {
+    "graph_id": 585,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 263420,
+    "sampled_edges": 512,
+    "sampled_nodes": 135
+  },
+  {
+    "graph_id": 586,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 339905,
+    "sampled_edges": 512,
+    "sampled_nodes": 114
+  },
+  {
+    "graph_id": 587,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 303124,
+    "sampled_edges": 512,
+    "sampled_nodes": 127
+  },
+  {
+    "graph_id": 588,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 369956,
+    "sampled_edges": 512,
+    "sampled_nodes": 96
+  },
+  {
+    "graph_id": 589,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 292063,
+    "sampled_edges": 512,
+    "sampled_nodes": 117
+  },
+  {
+    "graph_id": 590,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 392111,
+    "sampled_edges": 512,
+    "sampled_nodes": 84
+  },
+  {
+    "graph_id": 591,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 344048,
+    "sampled_edges": 512,
+    "sampled_nodes": 125
+  },
+  {
+    "graph_id": 592,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 316092,
+    "sampled_edges": 512,
+    "sampled_nodes": 120
+  },
+  {
+    "graph_id": 593,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 246771,
+    "sampled_edges": 512,
+    "sampled_nodes": 150
+  },
+  {
+    "graph_id": 594,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 286128,
+    "sampled_edges": 512,
+    "sampled_nodes": 133
+  },
+  {
+    "graph_id": 595,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 311024,
+    "sampled_edges": 512,
+    "sampled_nodes": 119
+  },
+  {
+    "graph_id": 596,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 330521,
+    "sampled_edges": 512,
+    "sampled_nodes": 121
+  },
+  {
+    "graph_id": 597,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 192726,
+    "sampled_edges": 512,
+    "sampled_nodes": 142
+  },
+  {
+    "graph_id": 598,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 236493,
+    "sampled_edges": 512,
+    "sampled_nodes": 139
+  },
+  {
+    "graph_id": 599,
+    "scenario": "CNN",
+    "label": 0,
+    "raw_edges": 225533,
+    "sampled_edges": 512,
+    "sampled_nodes": 143
+  }
+]
