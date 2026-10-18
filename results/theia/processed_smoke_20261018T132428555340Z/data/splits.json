@@ -1,0 +1,14 @@
+{
+  "train": [
+    "train0.pkl",
+    "train1.pkl",
+    "train2.pkl"
+  ],
+  "validation": [
+    "train3.pkl"
+  ],
+  "test": [
+    "test0.pkl"
+  ],
+  "protocol": "train0-2 fit; train3 validation presumed background; test0 upstream positives, complement presumed background. Graph-local IDs; cross-graph entity overlap unknown. No timestamps available."
+}

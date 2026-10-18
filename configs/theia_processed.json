@@ -1,0 +1,19 @@
+{
+  "name": "theia_processed",
+  "dataset": "theia_preprocessed",
+  "device": "cpu",
+  "threads": 4,
+  "seeds": [42],
+  "epochs": 15,
+  "hidden": 32,
+  "learning_rate": 0.003,
+  "mask_rate": 0.4,
+  "rf_max_train_nodes": 100000,
+  "rf_trees": 100,
+  "rf_max_depth": 16,
+  "max_reference_nodes": 5000,
+  "knn_k": 5,
+  "validation_fpr": 0.01,
+  "label_policy": "upstream_positive_presumed_background",
+  "experiment_role": "exploratory_static_graph_comparison"
+}

@@ -1,5 +1,108 @@
 # THEIA extension: operating guide and protocol
 
+## Data quality audit — 19 October 2026
+
+The [completed quality audit](../results/data_quality/REPORT.md) verifies that the
+local THEIA archive exactly matches the official MAGIC repository archive at the
+recorded commit. This resolves the origin uncertainty recorded in earlier runs;
+historical manifests retain their original statements. Structural checks passed,
+but the audit found limited diversity in the simplified feature vectors, strongly
+concentrated positive labels/topology, and a perfect sampled-node-count ranking
+shortcut in the existing StreamSpot test split. These are evaluation limitations,
+not evidence of corrupt or AI-generated files. Full numerical findings are in
+[audit.json](../results/data_quality/audit.json). No models were retrained.
+
+## Combined HTML dashboard
+
+Open the comparison of the saved StreamSpot and full preprocessed THEIA runs:
+
+```bash
+open results/comparison/dashboard.html
+```
+
+The page works offline and includes an interactive graph explorer, ROC/PR figures,
+training-loss plots, confusion matrices with row-normalised rates, metric selection,
+dataset filtering, CSV export, source links and protocol differences. It compares
+graph-level and node-level experiments descriptively, without pooling their test
+sets or claiming equivalent model implementations. It uses the actual saved run
+metrics, not the historical synthetic THEIA results.
+
+Regenerate the snapshot with `.venv/bin/python scripts/build_comparison_dashboard.py`.
+To select other completed runs, pass `--streamspot results/YOUR_RUN` and
+`--theia results/theia/YOUR_FULL_RUN`. The default paths select the current
+StreamSpot quick run and full THEIA run discussed here; new runs are not selected
+automatically. Figures are generated from all labelled test predictions for the
+first saved seed and checked against saved AP/AUC values. PNGs are embedded in the
+HTML; downloadable PNG/SVG copies are in `results/comparison/figures/`.
+`scripts/comparison_visuals.py` produces these figures and bounded graph excerpts.
+StreamSpot examples are saved test-graph excerpts with whole-graph labels. THEIA
+examples show the highest-degree test node from each label group and up to 28
+nodes / 40 incident edges. They are deliberately selected illustrations, not
+representative samples or causal attack explanations. Node selection exposes IDs;
+THEIA IDs remain graph-local. Layout coordinates have no temporal meaning.
+
+JavaScript syntax, rendering logic, graph switches, metric/curve controls, CSV
+export and local artifact links were checked. Generated scientific plots were
+visually inspected; a headless browser launch failed in this environment, so the
+full page has not received screenshot-based browser QA.
+
+## Train the newly supplied preprocessed graphs (19 October 2026)
+
+From this project folder, run:
+
+```bash
+bash scripts/train_theia.sh
+```
+
+This entry point supports the current `data/theia/train0.pkl` through `train3.pkl`,
+`test0.pkl`, and `metadata.json`. It uses the existing virtual environment (creating
+one and installing requirements if necessary). DGL is not required: an allowlisted
+reader reconstructs inert DGL records and CPU tensors with PyTorch's weights-only
+storage loader. Unsupported pickle globals or graph schemas are rejected.
+
+The default configuration is `configs/theia_processed.json`: CPU, four threads,
+32 hidden units, 15 epochs, seed 42, and sequential FLASH-inspired, MAGIC-inspired,
+and random-forest workers. Every node and edge in all five exports is processed;
+one whole graph is loaded at a time. RF fits a uniform reservoir of up to 100,000
+training nodes; MAGIC uses up to 5,000 training reference embeddings for kNN.
+Those reservoirs are deliberate approximations, not full-population fits.
+
+**Separate static-graph protocol:** `train0–2.pkl` fit the models; `train3.pkl` is
+held out for validation; `test0.pkl` remains the test set. Thus one of the four
+upstream training graphs is repurposed for validation. Validation nodes are
+presumed background; test malicious indices come from the supplied metadata and
+their complement is presumed background. These are dataset-convention assumptions,
+not independently verified benign labels. Thresholds use the validation 99th
+percentile (conservative tie handling); test labels never select thresholds.
+
+Input features are log incoming/outgoing edge-type counts with a training-only
+edge vocabulary and scaler. Node type is the FLASH/RF prediction target and is
+excluded from features. The original one-hot type attributes are checked for
+alignment. No raw timestamps or complete UUID mapping are available. IDs such as
+`test0.pkl:node:42` are graph-local identifiers, not real UUIDs. Cross-graph entity
+overlap cannot be audited, and this protocol makes no temporal causality or
+entity-disjointness claim. It does not reproduce the original papers. Do not
+interpret its results as equivalent to the raw-CDM protocol below or to the
+600-graph StreamSpot experiment.
+
+Each invocation creates a new `results/theia/processed_full_<timestamp>/` folder
+with prepared data, source/code hashes, configuration, logs, epoch timings,
+checkpoints, predictions, validation thresholds, resource measurements and audited
+`metrics.csv`/`metrics.json`. The script prints that path. It does not create the
+raw-CDM dashboard, whose chronological claims do not apply here. All saved metric
+rows identify this as an exploratory static-graph comparison. Archive origin is
+recorded in historical manifests as user-supplied. The subsequent quality audit
+above independently matched the archive checksum to the official repository.
+
+For an engineering check only, `bash scripts/train_theia.sh --smoke` takes an
+induced prefix of 2,048 nodes per graph, uses one epoch, runs all three models,
+and verifies checkpoint rescoring. Its metrics are not full-dataset results.
+
+The remaining sections describe the **original raw-CDM workflow**. Its missing
+raw/synthetic data folders were removed by the user; the new pickle exports do
+not restore them. Historical synthetic timing results do not estimate full-graph
+runtime.
+
 This extends `main.py` and adds `ids/theia/`. The original StreamSpot modules, configurations, prepared data and prior results remain independent. These are simplified implementations for a controlled comparison, **not paper reproductions**. This document is software documentation, not assessment-report prose.
 
 ## Verified sources and access

@@ -1,0 +1,16 @@
+{"epoch": 1, "mean_window_loss": 9.765945076942444, "windows": 3, "seconds": 1.3875230830162764}
+{"epoch": 2, "mean_window_loss": 1.1627402504285176, "windows": 3, "seconds": 1.3144048750400543}
+{"epoch": 3, "mean_window_loss": 1.0095468759536743, "windows": 3, "seconds": 1.3528444999828935}
+{"epoch": 4, "mean_window_loss": 0.981052577495575, "windows": 3, "seconds": 1.368934083264321}
+{"epoch": 5, "mean_window_loss": 0.9862336913744608, "windows": 3, "seconds": 1.3291603340767324}
+{"epoch": 6, "mean_window_loss": 1.0156071782112122, "windows": 3, "seconds": 1.3353617079555988}
+{"epoch": 7, "mean_window_loss": 0.8873117764790853, "windows": 3, "seconds": 1.3362511661835015}
+{"epoch": 8, "mean_window_loss": 1.0215342442194622, "windows": 3, "seconds": 1.3573768329806626}
+{"epoch": 9, "mean_window_loss": 0.9599759777386984, "windows": 3, "seconds": 1.3356251250952482}
+{"epoch": 10, "mean_window_loss": 0.9672638177871704, "windows": 3, "seconds": 1.3519747918471694}
+{"epoch": 11, "mean_window_loss": 1.023879071076711, "windows": 3, "seconds": 1.3428751667961478}
+{"epoch": 12, "mean_window_loss": 0.9905653595924377, "windows": 3, "seconds": 1.355808375403285}
+{"epoch": 13, "mean_window_loss": 0.9502918918927511, "windows": 3, "seconds": 1.361485832836479}
+{"epoch": 14, "mean_window_loss": 1.0365295211474101, "windows": 3, "seconds": 1.341049375012517}
+{"epoch": 15, "mean_window_loss": 0.9461628794670105, "windows": 3, "seconds": 1.3541010841727257}
+{"known_targets": 344767, "unknown_targets": 0, "precision": 0.8079501915708812, "recall": 0.9994470555709152, "f1": 0.8935539116156712, "average_precision": 0.7716453936795895, "roc_auc": 0.9879777777266521, "tn": 313433, "fp": 6015, "fn": 14, "tp": 25305, "false_positive_rate": 0.01882935563847637, "binary_metrics_defined": true, "dataset": "theia_preprocessed", "target": "graph_local_node", "model": "magic_node", "seed": 42, "fingerprint": "cbb712908f66db6c8bf585bac732045176c23e54b12312dd6ed5217d22779a8b", "label_policy": "upstream_positive_presumed_background", "threshold": 1.2915563106536867, "threshold_rule": "validation negative quantile; no validation positives", "training_seconds": 21.861079165712, "validation_seconds": 4.9131069160066545, "inference_seconds": 4.298510333057493, "process_peak_rss_mib": 2912.75, "training_context_node_occurrences": 890093, "test_targets": 344767, "validation_targets": 389106, "device": "cpu", "experiment_role": "exploratory_static_graph_comparison"}

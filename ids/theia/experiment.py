@@ -77,6 +77,10 @@ def reevaluate(out):
 
 
 def build_dashboard(out):
+    manifest = json.loads((Path(out)/'manifest.json').read_text())
+    if manifest.get('format_version') == 'processed_static_v1':
+        print('Static-graph results are in metrics.csv; the raw-CDM chronological dashboard does not apply.')
+        return
     from .dashboard import build
     build(out)
 

@@ -1,0 +1,11 @@
+{
+  "shared_targets": true,
+  "validation_only_thresholds": true,
+  "metrics_recomputed": true,
+  "target_rows_per_model": 4096,
+  "models": [
+    "flash_node",
+    "magic_node",
+    "random_forest_node"
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "date": "2026-10-19",
+  "scope": "Existing THEIA exports and prepared StreamSpot data; diagnostic audit, not a new benchmark.",
+  "limitations": [
+    "Graph-local IDs cannot establish entity disjointness across exports.",
+    "No raw timestamps: no temporal ordering or duplicate-event verification.",
+    "Background is presumed, not independently verified benign.",
+    "Shortcut rankings use test labels for diagnostic reporting only; do not tune models against these observations. No direction is selected to maximise AUC.",
+    "Repeated seeds and alternative splits were not run; this audit cannot establish performance stability."
+  ],
+  "theia_provenance": {
+    "local_archive_sha256": "926b4e30a39b1680fe512ef015bfe03ab85760e12dc7d8ae88da40a346bd6864",
+    "zip_crc_passed": true,
+    "extracted_files_match_archive": {
+      "metadata.json": true,
+      "test0.pkl": true,
+      "train0.pkl": true,
+      "train1.pkl": true,
+      "train2.pkl": true,
+      "train3.pkl": true
+    },
+    "upstream_url": "https://raw.githubusercontent.com/FDUDSDE/MAGIC/aa0b647eea74b6faa0e52eb444370c4411a32cbe/data/theia/graphs.zip",
+    "remote_bytes": 7877492,
+    "remote_sha256": "926b4e30a39b1680fe512ef015bfe03ab85760e12dc7d8ae88da40a346bd6864",
+    "exact_upstream_match": true,
+    "upstream_check_reused": true
+  },
+  "theia_prepared_integrity": {
+    "verified": true,
+    "targets": {
+      "train": 890093,
+      "validation": 389106,
+      "test": 344767
+    },
+    "fingerprint": "cbb712908f66db6c8bf585bac732045176c23e54b12312dd6ed5217d22779a8b"
+  },
+  "theia_sources_match_manifest": {
+    "train0.pkl": true,
+    "train1.pkl": true,
+    "train2.pkl": true,
+    "train3.pkl": true,
+    "test0.pkl": true,
+    "metadata.json": true
+  },
+  "theia_label_metadata": {
+    "positive_indices": 25319,
+    "unique_positive_indices": 25319,
+    "missing_associated_names": 25278,
+    "note": "Associated names are not a complete UUID mapping."
+  },
+  "theia_feature_label_ambiguity": {
+    "groups_with_both_labels": 10,
+    "nodes_in_conflicting_groups": 33973,
+    "minimum_errors_for_any_deterministic_feature_only_classifier": 946,
+    "note": "Identical feature rows can represent different entities. This is a feature-only limitation; graph context can distinguish some nodes."
+  },
+  "theia_test_labels_by_type": [
+    {
+      "raw_type": 0,
+      "nodes": 12936,
+      "positive_nodes": 23,
+      "positive_rate": 0.0017779839208410637
+    },
+    {
+      "raw_type": 1,
+      "nodes": 48044,
+      "positive_nodes": 5,
+      "positive_rate": 0.00010407126800432937
+    },
+    {
+      "raw_type": 2,
+      "nodes": 237593,
+      "positive_nodes": 0,
+      "positive_rate": 0.0
+    },
+    {
+      "raw_type": 3,
+      "nodes": 46191,
+      "positive_nodes": 25291,
+      "positive_rate": 0.5475309042887142
+    },
+    {
+      "raw_type": 4,
+      "nodes": 3,
+      "positive_nodes": 0,
+      "positive_rate": 0.0
+    }
+  ],
+  "theia_shortcut_rankings": {
+    "total_degree_high": {
+      "roc_auc": 0.5295611505615384,
+      "average_precision": 0.07714708976808402
+    },
+    "total_degree_low": {
+      "roc_auc": 0.4704388494384614,
+      "average_precision": 0.06947832266931674
+    },
+    "incoming_degree_high": {
+      "roc_auc": 0.5742548018094751,
+      "average_precision": 0.09152668684904076
+    },
+    "outgoing_degree_high": {
+      "roc_auc": 0.436855452272038,
+      "average_precision": 0.07159684011508335
+    },
+    "unseen_training_signature": {
+      "roc_auc": 0.49866880969666755,
+      "average_precision": 0.07337922162683849
+    }
+  },
+  "theia_graphs": [
+    {
+      "nodes": 167265,
+      "edges": 284562,
+      "isolated_nodes": 0,
+      "self_loops": 0,
+      "repeated_edge_occurrences": 0,
+      "edge_key": "source,destination,type",
+      "weak_components": 7,
+      "largest_component_nodes": 166511,
+      "degree_quantiles": {
+        "0": 1.0,
+        "0.5": 1.0,
+        "0.9": 2.0,
+        "0.99": 30.0,
+        "1": 5037.0
+      },
+      "file": "train0.pkl",
+      "partition": "train",
+      "node_types": {
+        "0": 5620,
+        "1": 19886,
+        "2": 133240,
+        "3": 8516,
+        "4": 3
+      },
+      "edge_types": {
+        "0": 70173,
+        "1": 50365,
+        "2": 56518,
+        "3": 3452,
+        "4": 8994,
+        "5": 170,
+        "6": 168,
+        "7": 340,
+        "8": 5437,
+        "9": 1752,
+        "10": 79902,
+        "11": 6316,
+        "12": 50,
+        "13": 112,
+        "14": 168,
+        "15": 391,
+        "16": 254
+      },
+      "schema_valid": true,
+      "feature_columns": 36,
+      "finite_features": true,
+      "constant_feature_columns": [
+        0,
+        18
+      ],
+      "unique_feature_rows": 883,
+      "nodes_in_repeated_feature_groups": 166712
+    },
+    {
+      "nodes": 380204,
+      "edges": 674723,
+      "isolated_nodes": 0,
+      "self_loops": 0,
+      "repeated_edge_occurrences": 0,
+      "edge_key": "source,destination,type",
+      "weak_components": 7,
+      "largest_component_nodes": 378973,
+      "degree_quantiles": {
+        "0": 1.0,
+        "0.5": 1.0,
+        "0.9": 2.0,
+        "0.99": 30.0,
+        "1": 12542.0
+      },
+      "file": "train1.pkl",
+      "partition": "train",
+      "node_types": {
+        "0": 15310,
+        "1": 34563,
+        "2": 313546,
+        "3": 16783,
+        "4": 2
+      },
+      "edge_types": {
+        "0": 172170,
+        "1": 120060,
+        "2": 143413,
+        "3": 8088,
+        "4": 18172,
+        "5": 497,
+        "6": 360,
+        "7": 641,
+        "8": 15098,
+        "9": 6584,
+        "10": 176317,
+        "11": 11632,
+        "12": 197,
+        "13": 360,
+        "14": 372,
+        "15": 592,
+        "16": 170
+      },
+      "schema_valid": true,
+      "feature_columns": 36,
+      "finite_features": true,
+      "constant_feature_columns": [
+        0,
+        18
+      ],
+      "unique_feature_rows": 962,
+      "nodes_in_repeated_feature_groups": 379676
+    },
+    {
+      "nodes": 342624,
+      "edges": 587111,
+      "isolated_nodes": 0,
+      "self_loops": 0,
+      "repeated_edge_occurrences": 0,
+      "edge_key": "source,destination,type",
+      "weak_components": 15,
+      "largest_component_nodes": 338510,
+      "degree_quantiles": {
+        "0": 1.0,
+        "0.5": 1.0,
+        "0.9": 2.0,
+        "0.99": 30.0,
+        "1": 9188.0
+      },
+      "file": "train2.pkl",
+      "partition": "train",
+      "node_types": {
+        "0": 11192,
+        "1": 49174,
+        "2": 264940,
+        "3": 17314,
+        "4": 4
+      },
+      "edge_types": {
+        "0": 157440,
+        "1": 100640,
+        "2": 106842,
+        "3": 9470,
+        "4": 18837,
+        "5": 259,
+        "6": 351,
+        "7": 1164,
+        "8": 10380,
+        "9": 3147,
+        "10": 165125,
+        "11": 12145,
+        "12": 77,
+        "13": 201,
+        "14": 329,
+        "15": 500,
+        "16": 204
+      },
+      "schema_valid": true,
+      "feature_columns": 36,
+      "finite_features": true,
+      "constant_feature_columns": [
+        0,
+        18
+      ],
+      "unique_feature_rows": 1058,
+      "nodes_in_repeated_feature_groups": 341995
+    },
+    {
+      "nodes": 389106,
+      "edges": 700318,
+      "isolated_nodes": 0,
+      "self_loops": 0,
+      "repeated_edge_occurrences": 0,
+      "edge_key": "source,destination,type",
+      "weak_components": 16,
+      "largest_component_nodes": 387689,
+      "degree_quantiles": {
+        "0": 1.0,
+        "0.5": 1.0,
+        "0.9": 3.0,
+        "0.99": 30.0,
+        "1": 13495.0
+      },
+      "file": "train3.pkl",
+      "partition": "validation",
+      "node_types": {
+        "0": 15107,
+        "1": 41192,
+        "2": 316612,
+        "3": 16193,
+        "4": 2
+      },
+      "edge_types": {
+        "0": 198250,
+        "1": 117261,
+        "2": 141463,
+        "3": 7492,
+        "4": 17636,
+        "5": 492,
+        "6": 365,
+        "7": 657,
+        "8": 14827,
+        "9": 6456,
+        "10": 182056,
+        "11": 11660,
+        "12": 194,
+        "13": 350,
+        "14": 358,
+        "15": 588,
+        "16": 213
+      },
+      "schema_valid": true,
+      "feature_columns": 36,
+      "finite_features": true,
+      "constant_feature_columns": [
+        0,
+        18
+      ],
+      "unique_feature_rows": 1265,
+      "nodes_in_repeated_feature_groups": 388330
+    },
+    {
+      "nodes": 344767,
+      "edges": 628107,
+      "isolated_nodes": 0,
+      "self_loops": 0,
+      "repeated_edge_occurrences": 0,
+      "edge_key": "source,destination,type",
+      "weak_components": 16,
+      "largest_component_nodes": 343380,
+      "degree_quantiles": {
+        "0": 1.0,
+        "0.5": 1.0,
+        "0.9": 2.0,
+        "0.99": 30.0,
+        "1": 25306.0
+      },
+      "file": "test0.pkl",
+      "partition": "test",
+      "node_types": {
+        "0": 12936,
+        "1": 48044,
+        "2": 237593,
+        "3": 46191,
+        "4": 3
+      },
+      "edge_types": {
+        "0": 176202,
+        "1": 105154,
+        "2": 120122,
+        "3": 10002,
+        "4": 23937,
+        "5": 471,
+        "6": 346,
+        "7": 662,
+        "8": 12600,
+        "9": 5611,
+        "10": 122887,
+        "11": 48518,
+        "12": 170,
+        "13": 282,
+        "14": 272,
+        "15": 660,
+        "16": 211
+      },
+      "schema_valid": true,
+      "feature_columns": 36,
+      "finite_features": true,
+      "constant_feature_columns": [
+        0,
+        18
+      ],
+      "unique_feature_rows": 1267,
+      "nodes_in_repeated_feature_groups": 343993,
+      "labels": {
+        "0": 319448,
+        "1": 25319
+      }
+    }
+  ],
+  "theia_feature_overlap": {
+    "unique_train_signatures": 2117,
+    "test_nodes_matching_training_features": 343508,
+    "fraction_test_nodes_matching_training_features": 0.996348258388999,
+    "test_nodes_matching_validation_features": 343173,
+    "note": "Feature equality is not proof of duplicated entities or train/test leakage."
+  },
+  "theia_test_positive_prevalence": 0.07343800305713714,
+  "streamspot": {
+    "graph_count": 600,
+    "labels": {
+      "0": 500,
+      "1": 100
+    },
+    "prepared_hashes_match": {
+      "graphs.npz": true,
+      "graphs.json": true,
+      "splits.json": true
+    },
+    "raw_archive_hash_matches_manifest": true,
+    "split_counts": {
+      "train": 360,
+      "validation": 120,
+      "test": 120
+    },
+    "split_graph_ids_disjoint": true,
+    "raw_edges": 89770902,
+    "retained_edges": 307200,
+    "edge_retention_fraction": 0.003422044261068024,
+    "per_graph_edge_retention_quantiles": {
+      "0": 0.0007149080672907218,
+      "0.5": 0.005052226270168867,
+      "1": 0.018813154510380306
+    },
+    "all_features_finite_and_endpoints_valid": true,
+    "exact_serialized_duplicate_graph_groups": [],
+    "duplicate_check_limit": "Exact tensor order only, not graph isomorphism or entity identity.",
+    "isolated_nodes_total": 0,
+    "test_shortcut_rankings": {
+      "sampled_nodes": {
+        "roc_auc": 1.0,
+        "average_precision": 1.0
+      },
+      "raw_edges": {
+        "roc_auc": 0.0,
+        "average_precision": 0.0933943059278338
+      }
+    },
+    "shortcut_note": "Raw edge count is a source diagnostic, not necessarily a model input. Test-label diagnostic, not a newly validated detector."
+  },
+  "theia_model_results_by_raw_type": {
+    "flash_node": [
+      {
+        "raw_type": 0,
+        "nodes": 12936,
+        "positives": 23,
+        "roc_auc": 0.5719312186236317,
+        "average_precision": 0.0022880482977522096,
+        "tp": 0,
+        "fp": 2080,
+        "fn": 23
+      },
+      {
+        "raw_type": 1,
+        "nodes": 48044,
+        "positives": 5,
+        "roc_auc": 0.6763213222589981,
+        "average_precision": 0.0002467450884326169,
+        "tp": 0,
+        "fp": 1126,
+        "fn": 5
+      },
+      {
+        "raw_type": 2,
+        "nodes": 237593,
+        "positives": 0,
+        "roc_auc": null,
+        "average_precision": null,
+        "tp": 0,
+        "fp": 188,
+        "fn": 0
+      },
+      {
+        "raw_type": 3,
+        "nodes": 46191,
+        "positives": 25291,
+        "roc_auc": 0.9742788279356521,
+        "average_precision": 0.9845944528558102,
+        "tp": 18044,
+        "fp": 40,
+        "fn": 7247
+      },
+      {
+        "raw_type": 4,
+        "nodes": 3,
+        "positives": 0,
+        "roc_auc": null,
+        "average_precision": null,
+        "tp": 0,
+        "fp": 3,
+        "fn": 0
+      }
+    ],
+    "magic_node": [
+      {
+        "raw_type": 0,
+        "nodes": 12936,
+        "positives": 23,
+        "roc_auc": 0.9626025676854131,
+        "average_precision": 0.0365919928173159,
+        "tp": 19,
+        "fp": 835,
+        "fn": 4
+      },
+      {
+        "raw_type": 1,
+        "nodes": 48044,
+        "positives": 5,
+        "roc_auc": 0.9410978579903828,
+        "average_precision": 0.001009317263829765,
+        "tp": 3,
+        "fp": 2923,
+        "fn": 2
+      },
+      {
+        "raw_type": 2,
+        "nodes": 237593,
+        "positives": 0,
+        "roc_auc": null,
+        "average_precision": null,
+        "tp": 0,
+        "fp": 475,
+        "fn": 0
+      },
+      {
+        "raw_type": 3,
+        "nodes": 46191,
+        "positives": 25291,
+        "roc_auc": 0.9839259403320469,
+        "average_precision": 0.9681691159438182,
+        "tp": 25283,
+        "fp": 1779,
+        "fn": 8
+      },
+      {
+        "raw_type": 4,
+        "nodes": 3,
+        "positives": 0,
+        "roc_auc": null,
+        "average_precision": null,
+        "tp": 0,
+        "fp": 3,
+        "fn": 0
+      }
+    ],
+    "random_forest_node": [
+      {
+        "raw_type": 0,
+        "nodes": 12936,
+        "positives": 23,
+        "roc_auc": 0.6639399459257439,
+        "average_precision": 0.009706668044915042,
+        "tp": 2,
+        "fp": 64,
+        "fn": 21
+      },
+      {
+        "raw_type": 1,
+        "nodes": 48044,
+        "positives": 5,
+        "roc_auc": 0.22811882012531484,
+        "average_precision": 9.294807082619325e-05,
+        "tp": 0,
+        "fp": 850,
+        "fn": 5
+      },
+      {
+        "raw_type": 2,
+        "nodes": 237593,
+        "positives": 0,
+        "roc_auc": null,
+        "average_precision": null,
+        "tp": 0,
+        "fp": 50,
+        "fn": 0
+      },
+      {
+        "raw_type": 3,
+        "nodes": 46191,
+        "positives": 25291,
+        "roc_auc": 0.9623792689458341,
+        "average_precision": 0.9504423033650918,
+        "tp": 24490,
+        "fp": 1046,
+        "fn": 801
+      },
+      {
+        "raw_type": 4,
+        "nodes": 3,
+        "positives": 0,
+        "roc_auc": null,
+        "average_precision": null,
+        "tp": 0,
+        "fp": 0,
+        "fn": 0
+      }
+    ]
+  },
+  "theia_highest_degree_test_node": {
+    "graph_local_index": 207781,
+    "degree": 25306,
+    "label": 1,
+    "unique_neighbors": 25303,
+    "positive_neighbors": 25290,
+    "fraction_all_positives_adjacent_to_this_node": 0.9988546151111813,
+    "interpretation": "Diagnostic concentration of annotated positives around one hub; not proof of an attack path or leakage."
+  },
+  "audit_seconds": 5.726984374690801
+}

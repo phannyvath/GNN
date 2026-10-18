@@ -86,6 +86,7 @@ def run(data, output, model_name, seed):
         model = FlashNode(dim,config['hidden'],types) if model_name == 'flash_node' else MagicNode(dim,config['hidden'])
         optimizer = torch.optim.Adam(model.parameters(),lr=config['learning_rate'])
         for epoch in range(config['epochs']):
+            epoch_started = time.perf_counter()
             model.train(); losses = []; steps = 0
             for _,g in windows(data,'train'):
                 x,src,dst = tensors(g,scaler); optimizer.zero_grad()
@@ -97,7 +98,8 @@ def run(data, output, model_name, seed):
                 if not torch.isfinite(loss): raise ValueError('Nonfinite training loss')
                 loss.backward(); optimizer.step(); losses.append(float(loss.detach())); steps += 1
             if not steps: raise ValueError('No trainable nodes')
-            training.append({'epoch':epoch+1,'mean_window_loss':float(np.mean(losses)),'windows':steps})
+            training.append({'epoch':epoch+1,'mean_window_loss':float(np.mean(losses)),'windows':steps,
+                             'seconds':time.perf_counter()-epoch_started})
             print(json.dumps(training[-1]),flush=True)
         model.eval()
         if model_name == 'magic_node':

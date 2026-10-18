@@ -275,6 +275,9 @@ def prepare(paths, output, config, malicious_path=None, curated_path=None):
 
 def validate(directory):
     directory = Path(directory); m = json.loads((directory/'manifest.json').read_text())
+    if m.get('format_version') == 'processed_static_v1':
+        from .processed import validate_processed
+        return validate_processed(directory)
     identity = {k:m[k] for k in ('dataset','sources','label_sources','config','shards','targets_sha256','edge_vocabulary','type_vocabulary','feature_dim','boundaries_ns')}
     if fingerprint(identity) != m['fingerprint']: raise ValueError('Manifest fingerprint mismatch')
     seen = set(); expected = {}; cuts = m['boundaries_ns']; tally = Counter()

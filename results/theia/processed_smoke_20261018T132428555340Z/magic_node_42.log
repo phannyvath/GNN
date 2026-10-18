@@ -1,0 +1,10 @@
+{"epoch": 1, "mean_window_loss": 1.314671516418457, "windows": 3}
+/Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/context.py:134: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+{"known_targets": 2048, "unknown_targets": 0, "precision": 0.0, "recall": 0.0, "f1": 0.0, "average_precision": 0.0013831258644536654, "roc_auc": 0.6472887151929653, "tn": 1960, "fp": 87, "fn": 1, "tp": 0, "false_positive_rate": 0.04250122129946263, "binary_metrics_defined": true, "dataset": "theia_preprocessed", "target": "graph_local_node", "model": "magic_node", "seed": 42, "fingerprint": "d73e935efe1dda3fce7bbc9e48698d7ad9bcdf1a41d6a834bded30b6e85aad00", "label_policy": "upstream_positive_presumed_background", "threshold": 7.795812988281251, "threshold_rule": "validation negative quantile; no validation positives", "training_seconds": 0.044337792322039604, "validation_seconds": 0.035089457873255014, "inference_seconds": 0.012213333044201136, "process_peak_rss_mib": 380.9375, "training_context_node_occurrences": 6144, "test_targets": 2048, "validation_targets": 2048, "device": "cpu", "experiment_role": "real_data_subset_engineering_check"}

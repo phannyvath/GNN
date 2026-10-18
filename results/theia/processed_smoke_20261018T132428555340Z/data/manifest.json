@@ -1,0 +1,166 @@
+{
+  "format_version": "processed_static_v1",
+  "dataset": "theia_preprocessed",
+  "target": "graph_local_node",
+  "sources": {
+    "train0.pkl": "b814d119795a4b5ba361aeea29bc1817b1fe120337a84903e7af192c0d7c2278",
+    "train1.pkl": "ddcdac3f601e891fdbc8051d8f6c8f940642fda74046d55f5135336add161f1f",
+    "train2.pkl": "54fe7264d034c3c3f2b661ac593d4128e539a8aa63adfacd3912fb26394fd1c3",
+    "train3.pkl": "d241f2dadd210bc7d884973d49da9e59526f3067a27655ae0583d270c8335a0d",
+    "test0.pkl": "63f0b87c20d94d843e519e96a16cd6fe91ab3d821b1204f1ed3fb808dda24677",
+    "metadata.json": "bda53644d9c186cf6fd8a7d1c2948381068de12b3fa1511721727cb02157e8a6"
+  },
+  "config": {
+    "name": "theia_processed",
+    "dataset": "theia_preprocessed",
+    "device": "cpu",
+    "threads": 4,
+    "seeds": [
+      42
+    ],
+    "epochs": 1,
+    "hidden": 32,
+    "learning_rate": 0.003,
+    "mask_rate": 0.4,
+    "rf_max_train_nodes": 1024,
+    "rf_trees": 8,
+    "rf_max_depth": 16,
+    "max_reference_nodes": 256,
+    "knn_k": 5,
+    "validation_fpr": 0.01,
+    "label_policy": "upstream_positive_presumed_background",
+    "experiment_role": "real_data_subset_engineering_check"
+  },
+  "shards": [
+    {
+      "file": "train_0.npz",
+      "partition": "train",
+      "window": 0,
+      "max_ns": null,
+      "nodes": 2048,
+      "edges": 3597,
+      "sha256": "ea8542a3a6287470d6883887066baa52df48eba79122ad7b47ebe00ca62c2223"
+    },
+    {
+      "file": "train_1.npz",
+      "partition": "train",
+      "window": 1,
+      "max_ns": null,
+      "nodes": 2048,
+      "edges": 2472,
+      "sha256": "c1a8359efec7ea9278a5564b643bfef9506225ba9ab7431e2fdc80ae66d2551b"
+    },
+    {
+      "file": "train_2.npz",
+      "partition": "train",
+      "window": 2,
+      "max_ns": null,
+      "nodes": 2048,
+      "edges": 2787,
+      "sha256": "5dce9999ada10b13149f0b492119e5653b1c6971795d731566204ec414d5a19d"
+    },
+    {
+      "file": "validation_3.npz",
+      "partition": "validation",
+      "window": 3,
+      "max_ns": null,
+      "nodes": 2048,
+      "edges": 2552,
+      "sha256": "b2360a9395cf5e8966557c76191f2b165cc6a792ca0cf22027a1bfa4d5ff1e5c"
+    },
+    {
+      "file": "test_4.npz",
+      "partition": "test",
+      "window": 4,
+      "max_ns": null,
+      "nodes": 2048,
+      "edges": 2589,
+      "sha256": "5b9e699f1dab08a4697dcac2b7214854113263b14fcddfc8a5e57e7b884f5d86"
+    }
+  ],
+  "partitions": {
+    "train": {
+      "targets": 6144,
+      "edges": 8856
+    },
+    "validation": {
+      "targets": 2048,
+      "edges": 2552
+    },
+    "test": {
+      "targets": 2048,
+      "edges": 2589
+    }
+  },
+  "counts": [
+    {
+      "file": "train0.pkl",
+      "original_nodes": 167265,
+      "original_edges": 284562,
+      "used_nodes": 2048,
+      "used_edges": 3597
+    },
+    {
+      "file": "train1.pkl",
+      "original_nodes": 380204,
+      "original_edges": 674723,
+      "used_nodes": 2048,
+      "used_edges": 2472
+    },
+    {
+      "file": "train2.pkl",
+      "original_nodes": 342624,
+      "original_edges": 587111,
+      "used_nodes": 2048,
+      "used_edges": 2787
+    },
+    {
+      "file": "train3.pkl",
+      "original_nodes": 389106,
+      "original_edges": 700318,
+      "used_nodes": 2048,
+      "used_edges": 2552
+    },
+    {
+      "file": "test0.pkl",
+      "original_nodes": 344767,
+      "original_edges": 628107,
+      "used_nodes": 2048,
+      "used_edges": 2589
+    }
+  ],
+  "type_vocabulary": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5
+  },
+  "edge_vocabulary": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 7,
+    "7": 8,
+    "8": 9,
+    "9": 10,
+    "10": 11,
+    "11": 12,
+    "12": 13,
+    "13": 14,
+    "14": 15,
+    "15": 16,
+    "16": 17
+  },
+  "feature_dim": 36,
+  "targets_sha256": "d2f8dfe0fdcf75fa88956dd27ed469ca66523e9bc64b4fe7f3e71209151125b7",
+  "smoke_nodes": 2048,
+  "protocol": "train0-2 fit; train3 validation presumed background; test0 upstream positives, complement presumed background. Graph-local IDs; cross-graph entity overlap unknown. No timestamps available.",
+  "provenance": "User-supplied MAGIC-format graphs; upstream archive identity not independently verified.",
+  "prepare_seconds": 0.5945792919956148,
+  "prepare_process_peak_rss_mib": 1165.015625,
+  "fingerprint": "d73e935efe1dda3fce7bbc9e48698d7ad9bcdf1a41d6a834bded30b6e85aad00"
+}
