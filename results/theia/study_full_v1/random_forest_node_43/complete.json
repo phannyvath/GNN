@@ -1,0 +1,14 @@
+{
+  "fingerprint": "8388517365105cf49be88e6bf4664705f230de54a594975ae3add2079c052043",
+  "test_identity": "f147cddcf5f5250890df0de1c346058fd99aa7636ced8ce0f14ebce8bc0c29f5",
+  "validation_identity": "deba8ced5edd5fa2f235300b42a6f32a0fd138c065b1693788d41906a3481005",
+  "artifacts": {
+    "metrics.json": "a13032e21095c911ecfe74defeba412814ac83800ee2ff399a037978c18bcd3d",
+    "test_predictions.csv": "e99643ac9dc795ef5d03bba40b56ec9ffa6bdd4a2824b38186c7d08e6005b687",
+    "validation_predictions.csv": "86f94bb28c0cca34e3d60c6bcd2c4a74f723afb606134aca0ea4123cb216132b",
+    "threshold.json": "5d383be3f978e43dde10d385cec37f918aa280f63ee2495d38d33fa067e7feef",
+    "selection.json": "4b303e1f48879e9a34264c643cc0bc196972d233da23a44cf0aa72717726b07e",
+    "preprocessing.json": "e3985c9522eb49a606d8069719883ea3112fcc865f05c7ed7586f0eb35bae852",
+    "checkpoint.joblib": "c1edf3d1150c52edaf5282a047150e2ded1faf31c527f22b3869550e4d3ea54c"
+  }
+}

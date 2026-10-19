@@ -1,0 +1,6 @@
+{
+  "selected_epoch": null,
+  "criterion": "Fixed prespecified forest; no epoch selection; threshold fitted on validation only.",
+  "test_labels_used": false,
+  "history_epochs": 0
+}

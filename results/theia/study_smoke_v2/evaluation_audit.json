@@ -1,0 +1,15 @@
+{
+  "all_saved_metrics_recomputed": true,
+  "thresholds_validation_only": true,
+  "identical_targets_and_labels_all_methods_and_seeds": true,
+  "expected_target_hashes": {
+    "validation": "d107c184113b332660953aded48c5b8971c5757fdcf72baf3882fd55051d59fc",
+    "test": "790669bdce578423cf3d90a34bf9aaf449eea5baecea053ede1c36094d12b2ec"
+  },
+  "workers": 9,
+  "seeds": [
+    42,
+    43,
+    44
+  ]
+}

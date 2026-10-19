@@ -1,0 +1,6 @@
+{
+  "selected_epoch": 30,
+  "criterion": "Minimum validation masked reconstruction MSE with fixed validation mask",
+  "test_labels_used": false,
+  "history_epochs": 30
+}

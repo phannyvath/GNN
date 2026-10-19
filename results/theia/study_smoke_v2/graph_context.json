@@ -1,0 +1,326 @@
+{
+  "selection": "First graph-local index in each outcome category, first seed only; at most 20 nodes/30 incident edges",
+  "interpretation": "Observed graph context, not a proven model explanation or causal attack path. Orange: upstream positive; teal: presumed background. Scores are not attack probabilities.",
+  "excerpts": [
+    {
+      "model": "flash_node",
+      "seed": 42,
+      "category": "false_positive",
+      "graph_local_id": "test0.pkl:node:13",
+      "score": 0.9312542080879211,
+      "label": 0,
+      "threshold": 0.9261314272880555,
+      "node_ids": [
+        "test0.pkl:node:13",
+        "test0.pkl:node:12",
+        "test0.pkl:node:14",
+        "test0.pkl:node:76",
+        "test0.pkl:node:0",
+        "test0.pkl:node:304",
+        "test0.pkl:node:300",
+        "test0.pkl:node:653",
+        "test0.pkl:node:849",
+        "test0.pkl:node:1168",
+        "test0.pkl:node:874",
+        "test0.pkl:node:1305",
+        "test0.pkl:node:1260",
+        "test0.pkl:node:1349",
+        "test0.pkl:node:1572",
+        "test0.pkl:node:2075",
+        "test0.pkl:node:2113",
+        "test0.pkl:node:2052",
+        "test0.pkl:node:3370",
+        "test0.pkl:node:3375"
+      ],
+      "edges": [
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          76
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          13,
+          304
+        ],
+        [
+          13,
+          300
+        ],
+        [
+          13,
+          653
+        ],
+        [
+          13,
+          849
+        ],
+        [
+          13,
+          1168
+        ],
+        [
+          13,
+          874
+        ],
+        [
+          13,
+          1305
+        ],
+        [
+          13,
+          1260
+        ],
+        [
+          13,
+          1349
+        ],
+        [
+          13,
+          1572
+        ],
+        [
+          13,
+          2075
+        ],
+        [
+          13,
+          2113
+        ],
+        [
+          13,
+          2052
+        ],
+        [
+          13,
+          3370
+        ],
+        [
+          13,
+          3375
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          300,
+          13
+        ],
+        [
+          304,
+          13
+        ],
+        [
+          874,
+          13
+        ],
+        [
+          1168,
+          13
+        ],
+        [
+          1260,
+          13
+        ],
+        [
+          1305,
+          13
+        ],
+        [
+          1349,
+          13
+        ],
+        [
+          1572,
+          13
+        ],
+        [
+          2075,
+          13
+        ]
+      ],
+      "node_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "model": "flash_node",
+      "seed": 42,
+      "category": "missed_attack",
+      "graph_local_id": "test0.pkl:node:368",
+      "score": 0.8400615453720093,
+      "label": 1,
+      "threshold": 0.9261314272880555,
+      "node_ids": [
+        "test0.pkl:node:368",
+        "test0.pkl:node:367"
+      ],
+      "edges": [
+        [
+          367,
+          368
+        ]
+      ],
+      "node_labels": [
+        1,
+        0
+      ]
+    },
+    {
+      "model": "magic_node",
+      "seed": 42,
+      "category": "false_positive",
+      "graph_local_id": "test0.pkl:node:1",
+      "score": 1.7053526622884427,
+      "label": 0,
+      "threshold": 1.700190565702671,
+      "node_ids": [
+        "test0.pkl:node:1",
+        "test0.pkl:node:0"
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "node_labels": [
+        0,
+        0
+      ]
+    },
+    {
+      "model": "magic_node",
+      "seed": 42,
+      "category": "missed_attack",
+      "graph_local_id": "test0.pkl:node:368",
+      "score": 1.0251322759740178,
+      "label": 1,
+      "threshold": 1.700190565702671,
+      "node_ids": [
+        "test0.pkl:node:368",
+        "test0.pkl:node:367"
+      ],
+      "edges": [
+        [
+          367,
+          368
+        ]
+      ],
+      "node_labels": [
+        1,
+        0
+      ]
+    },
+    {
+      "model": "random_forest_node",
+      "seed": 42,
+      "category": "false_positive",
+      "graph_local_id": "test0.pkl:node:69",
+      "score": 0.3349333921962334,
+      "label": 0,
+      "threshold": 0.1997045960805807,
+      "node_ids": [
+        "test0.pkl:node:69",
+        "test0.pkl:node:70",
+        "test0.pkl:node:71",
+        "test0.pkl:node:72",
+        "test0.pkl:node:73",
+        "test0.pkl:node:74",
+        "test0.pkl:node:75"
+      ],
+      "edges": [
+        [
+          69,
+          70
+        ],
+        [
+          69,
+          71
+        ],
+        [
+          69,
+          72
+        ],
+        [
+          69,
+          73
+        ],
+        [
+          69,
+          74
+        ],
+        [
+          69,
+          75
+        ]
+      ],
+      "node_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "model": "random_forest_node",
+      "seed": 42,
+      "category": "missed_attack",
+      "graph_local_id": "test0.pkl:node:368",
+      "score": 0.0933079760258183,
+      "label": 1,
+      "threshold": 0.1997045960805807,
+      "node_ids": [
+        "test0.pkl:node:368",
+        "test0.pkl:node:367"
+      ],
+      "edges": [
+        [
+          367,
+          368
+        ]
+      ],
+      "node_labels": [
+        1,
+        0
+      ]
+    }
+  ]
+}

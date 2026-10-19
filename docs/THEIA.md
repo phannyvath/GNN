@@ -1,5 +1,23 @@
 # THEIA extension: operating guide and protocol
 
+## Reproducible three-seed study
+
+The new study workflow is documented in [THEIA_STUDY.md](THEIA_STUDY.md).
+It adds all-training-node RF/reference fits, validation-selected checkpoints,
+three seeds, exact progress/coverage logs, explicit resume, prediction audits,
+sample-standard-deviation summaries and a study-specific HTML report. It leaves
+the original experiment paths below available for historical comparison.
+
+```bash
+bash scripts/run_theia_study.sh --output results/theia/my_full_study
+open results/theia/my_full_study/dashboard.html
+```
+
+The output directory must be new. An existing interrupted study requires explicit
+`--resume`; no saved model is silently reused. Read the study guide for the fixed
+graph split, unknown training labels, presumed-background convention and limits
+on claims of unique entities or independent test data.
+
 ## Data quality audit — 19 October 2026
 
 The [completed quality audit](../results/data_quality/REPORT.md) verifies that the

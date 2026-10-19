@@ -2,9 +2,35 @@
 
 A runnable, CPU-based Python project with separate **graph-level StreamSpot** and **node-level DARPA TC E3-THEIA** experiments. It provides simplified FLASH-inspired and MAGIC-inspired models and Random Forest baselines, plus a StreamSpot-inspired graph baseline. This project is technical assistance, not an assessment report.
 
+## Unified study dashboard
+
+See [dashboard evidence, comparison rules and HPC import instructions](docs/DASHBOARD.md).
+
+Open `results/comparison/dashboard.html` for the offline experiment explorer: THEIA and StreamSpot selectors, per-seed metrics, mean/sample-SD comparisons, compute costs, exported evaluation figures, and source artifacts. Historical, synthetic, smoke and incomplete runs are labelled separately. This view reads saved results; it does not train models or make scores from different protocols directly comparable.
+
+```bash
+.venv/bin/python scripts/build_study_dashboard.py
+open results/comparison/dashboard.html
+```
+
+Rebuild after saving a new experiment. Figures and evidence links refer to their original directories, so keep the results tree together. Use `build_study_dashboard.py` for this unified view; the older `build_comparison_dashboard.py` produces the historical two-run comparison at the same output path.
+
 ## DARPA TC E3-THEIA (node-level extension)
 
-The existing StreamSpot workflow below is unchanged. Use `--dataset theia` for the separate node-level pipeline, bounded streaming importer, FLASH/MAGIC-inspired models and node-feature Random Forest. Read [the THEIA commands and protocol](docs/THEIA.md) and [actual verification results](docs/THEIA_VERIFICATION.md) before running it. Default labels preserve unknowns; binary metrics require appropriate labelled validation/test targets. Genuine archive downloads were quota-blocked during implementation, so bundled THEIA-pipeline runs are explicitly synthetic engineering checks, not benchmark results.
+The completed reproducible study uses the actual MAGIC-preprocessed DARPA E3-THEIA files in `data/theia`. It trained fresh FLASH-inspired, MAGIC-inspired and Random Forest models for seeds 42, 43 and 44, using all 890,093 eligible training node occurrences. The 1,623,966 total node occurrences include separate validation and test graphs; they are not all training examples.
+
+Read the [study protocol and commands](docs/THEIA_STUDY.md), [measured execution and verification](docs/THEIA_STUDY_VERIFICATION.md), and [completed dashboard](results/theia/study_full_v1/dashboard.html). Labels and entity identity have documented limitations; these simplified models are not exact paper reproductions.
+
+From the project directory, launch a fresh full study and open the already completed dashboard with:
+
+```bash
+bash scripts/run_theia_study.sh --output results/theia/my_full_study
+open results/theia/study_full_v1/dashboard.html
+```
+
+Use a new output directory for fresh training. Explicit interrupted-run recovery is `bash scripts/run_theia_study.sh --resume results/theia/my_full_study`.
+
+The original raw-CDM importer (`--dataset theia`) remains available in [THEIA.md](docs/THEIA.md). Its earlier synthetic engineering checks are separate from this executed real-data study. The StreamSpot workflow below remains a separate graph-level experiment.
 
 ## Start on your Mac
 

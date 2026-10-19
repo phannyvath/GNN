@@ -1,0 +1,22 @@
+{
+  "role": "full_preprocessed_study",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": [
+    "flash_node",
+    "magic_node",
+    "random_forest_node"
+  ],
+  "evaluations": 9,
+  "figures": [
+    "roc_pr",
+    "learning_curves",
+    "confusion_matrices",
+    "model_comparison",
+    "graph_context"
+  ],
+  "data_fingerprint": "8388517365105cf49be88e6bf4664705f230de54a594975ae3add2079c052043"
+}

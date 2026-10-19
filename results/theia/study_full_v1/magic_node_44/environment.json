@@ -1,0 +1,11 @@
+{
+  "python": "3.13.7",
+  "torch": "2.14.1",
+  "numpy": "2.5.3",
+  "sklearn": "1.9.1",
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "device": "cpu",
+  "threads": 4,
+  "seed": 44,
+  "memory_definition": "Fresh worker process OS high-water RSS measured after predictions; includes imports, model selection, training, reference and scoring. MiB; excludes other processes. On epoch resume each attempt has its own peak."
+}

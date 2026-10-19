@@ -1,0 +1,20 @@
+{
+  "fingerprint": "1effc0eb175a36986fbd6ae7c96c336fddc6e931482ee6b9a8a2fb3d6ea03a1b",
+  "test_identity": "790669bdce578423cf3d90a34bf9aaf449eea5baecea053ede1c36094d12b2ec",
+  "validation_identity": "d107c184113b332660953aded48c5b8971c5757fdcf72baf3882fd55051d59fc",
+  "artifacts": {
+    "metrics.json": "d42e6957b8ae64aca56a71838b4c46ae2c919a763d9525d46f90989ee555b855",
+    "test_predictions.csv": "bce948b69f4201176414716c1f7988682bab2f22706ff6ea353381cc110e60c9",
+    "validation_predictions.csv": "71405651512f2ab89225317dbff77ef489324eb22d0800974b8655e577fa3019",
+    "threshold.json": "61f09b01abd1fb92c5d3f0343f771dea79c30c240ab06777da87c8c01a313304",
+    "selection.json": "ded5f33641b063e41af2e676d5c857e03fe21504242a07a9401f5dbf78fe2732",
+    "preprocessing.json": "5eb2dbe7594e92c31ff0312fcac93f3e405a7686c0aa729fbeeba878e041a3f8",
+    "best.pt": "f8fe2165ab2a0959b56b0781803e13fb240e4dbfc21feec60bb4f675a5be046f",
+    "last.pt": "057dfb519d86654427a9042dd24644c7cf6a1f3aa0214c4d9cd5dfb89033130e",
+    "initial.pt": "cb72817ce84af55149ed6fa64a9d7386c2b6c7265743eef670d339d8d6d62686",
+    "scaler.joblib": "59b2ee2ced0bd15505105c10071f173191a44a571d25c4060706f93845a84842",
+    "epochs.json": "fe3326e776e1691ad97fcc5de947923e0a628521a69327f657b92239b4fd5eb8",
+    "reference.npz": "ec91f36d4795798874aa76a3c561e845fdcb63bd892f8f79bba5bfec9da891fb",
+    "reference_targets.csv": "d52f88a48d268a1aa1d2d1d64c180a9c1f80cf5e36716b5393f85b03dacec422"
+  }
+}

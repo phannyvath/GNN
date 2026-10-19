@@ -1,0 +1,15 @@
+{
+  "known_targets": 4096,
+  "unknown_targets": 0,
+  "precision": 0.0,
+  "recall": null,
+  "f1": null,
+  "average_precision": null,
+  "roc_auc": null,
+  "tn": 4059,
+  "fp": 37,
+  "fn": 0,
+  "tp": 0,
+  "false_positive_rate": 0.009033203125,
+  "binary_metrics_defined": false
+}

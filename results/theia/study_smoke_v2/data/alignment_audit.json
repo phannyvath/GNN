@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "graph_local_target_ids_disjoint": true,
+  "unique_entity_disjointness": "unverifiable without UUID mappings",
+  "labels_match_upstream_indices": true,
+  "all_expected_nodes_and_edges_retained": false,
+  "partition_node_occurrences": {
+    "train": 12288,
+    "validation": 4096,
+    "test": 4096
+  },
+  "fingerprint": "36c92d6298d2a3fcf54c61bc1701955469a40eab73a73c078248278c5d5c2621"
+}

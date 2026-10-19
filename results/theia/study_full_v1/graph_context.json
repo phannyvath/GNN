@@ -1,0 +1,683 @@
+{
+  "selection": "First graph-local index in each outcome category, first seed only; at most 20 nodes/30 incident edges",
+  "interpretation": "Observed graph context, not a proven model explanation or causal attack path. Orange: upstream positive; teal: presumed background. Scores are not attack probabilities.",
+  "excerpts": [
+    {
+      "model": "flash_node",
+      "seed": 42,
+      "category": "correct_detection",
+      "graph_local_id": "test0.pkl:node:368",
+      "score": 0.8275555372238159,
+      "label": 1,
+      "threshold": 0.17145305871963504,
+      "node_ids": [
+        "test0.pkl:node:368",
+        "test0.pkl:node:367",
+        "test0.pkl:node:207781"
+      ],
+      "edges": [
+        [
+          367,
+          368
+        ],
+        [
+          207781,
+          368
+        ]
+      ],
+      "node_labels": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "model": "flash_node",
+      "seed": 42,
+      "category": "false_positive",
+      "graph_local_id": "test0.pkl:node:69",
+      "score": 0.5475858449935913,
+      "label": 0,
+      "threshold": 0.17145305871963504,
+      "node_ids": [
+        "test0.pkl:node:69",
+        "test0.pkl:node:70",
+        "test0.pkl:node:71",
+        "test0.pkl:node:72",
+        "test0.pkl:node:73",
+        "test0.pkl:node:74",
+        "test0.pkl:node:75"
+      ],
+      "edges": [
+        [
+          69,
+          70
+        ],
+        [
+          69,
+          71
+        ],
+        [
+          69,
+          72
+        ],
+        [
+          69,
+          73
+        ],
+        [
+          69,
+          74
+        ],
+        [
+          69,
+          75
+        ]
+      ],
+      "node_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "model": "flash_node",
+      "seed": 42,
+      "category": "missed_attack",
+      "graph_local_id": "test0.pkl:node:3627",
+      "score": 6.4373016357421875e-06,
+      "label": 1,
+      "threshold": 0.17145305871963504,
+      "node_ids": [
+        "test0.pkl:node:3627",
+        "test0.pkl:node:874",
+        "test0.pkl:node:28152",
+        "test0.pkl:node:33477",
+        "test0.pkl:node:38682",
+        "test0.pkl:node:43719",
+        "test0.pkl:node:48767",
+        "test0.pkl:node:53711",
+        "test0.pkl:node:58865",
+        "test0.pkl:node:63923",
+        "test0.pkl:node:68954",
+        "test0.pkl:node:73488",
+        "test0.pkl:node:81051",
+        "test0.pkl:node:85885",
+        "test0.pkl:node:94148",
+        "test0.pkl:node:99192",
+        "test0.pkl:node:104215",
+        "test0.pkl:node:109351",
+        "test0.pkl:node:114447",
+        "test0.pkl:node:119397"
+      ],
+      "edges": [
+        [
+          874,
+          3627
+        ],
+        [
+          3627,
+          874
+        ],
+        [
+          3627,
+          28152
+        ],
+        [
+          3627,
+          33477
+        ],
+        [
+          3627,
+          38682
+        ],
+        [
+          3627,
+          43719
+        ],
+        [
+          3627,
+          48767
+        ],
+        [
+          3627,
+          53711
+        ],
+        [
+          3627,
+          58865
+        ],
+        [
+          3627,
+          63923
+        ],
+        [
+          3627,
+          68954
+        ],
+        [
+          3627,
+          73488
+        ],
+        [
+          3627,
+          81051
+        ],
+        [
+          3627,
+          85885
+        ],
+        [
+          3627,
+          94148
+        ],
+        [
+          3627,
+          99192
+        ],
+        [
+          3627,
+          104215
+        ],
+        [
+          3627,
+          109351
+        ],
+        [
+          3627,
+          114447
+        ],
+        [
+          3627,
+          119397
+        ],
+        [
+          28152,
+          3627
+        ],
+        [
+          33477,
+          3627
+        ],
+        [
+          38682,
+          3627
+        ],
+        [
+          43719,
+          3627
+        ],
+        [
+          48767,
+          3627
+        ],
+        [
+          53711,
+          3627
+        ],
+        [
+          58865,
+          3627
+        ],
+        [
+          63923,
+          3627
+        ],
+        [
+          68954,
+          3627
+        ],
+        [
+          73488,
+          3627
+        ]
+      ],
+      "node_labels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "model": "magic_node",
+      "seed": 42,
+      "category": "correct_detection",
+      "graph_local_id": "test0.pkl:node:30015",
+      "score": 1.495973914847204,
+      "label": 1,
+      "threshold": 1.4945370573100958,
+      "node_ids": [
+        "test0.pkl:node:30015",
+        "test0.pkl:node:28523",
+        "test0.pkl:node:207781"
+      ],
+      "edges": [
+        [
+          28523,
+          30015
+        ],
+        [
+          207781,
+          30015
+        ]
+      ],
+      "node_labels": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "model": "magic_node",
+      "seed": 42,
+      "category": "false_positive",
+      "graph_local_id": "test0.pkl:node:0",
+      "score": 1.6985865347287348,
+      "label": 0,
+      "threshold": 1.4945370573100958,
+      "node_ids": [
+        "test0.pkl:node:0",
+        "test0.pkl:node:1",
+        "test0.pkl:node:2",
+        "test0.pkl:node:3",
+        "test0.pkl:node:4",
+        "test0.pkl:node:5",
+        "test0.pkl:node:6",
+        "test0.pkl:node:7",
+        "test0.pkl:node:8",
+        "test0.pkl:node:9",
+        "test0.pkl:node:10",
+        "test0.pkl:node:11",
+        "test0.pkl:node:15",
+        "test0.pkl:node:16",
+        "test0.pkl:node:17",
+        "test0.pkl:node:18",
+        "test0.pkl:node:19",
+        "test0.pkl:node:20",
+        "test0.pkl:node:21",
+        "test0.pkl:node:22"
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "node_labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "model": "magic_node",
+      "seed": 42,
+      "category": "missed_attack",
+      "graph_local_id": "test0.pkl:node:368",
+      "score": 1.2624974677564302,
+      "label": 1,
+      "threshold": 1.4945370573100958,
+      "node_ids": [
+        "test0.pkl:node:368",
+        "test0.pkl:node:367",
+        "test0.pkl:node:207781"
+      ],
+      "edges": [
+        [
+          367,
+          368
+        ],
+        [
+          207781,
+          368
+        ]
+      ],
+      "node_labels": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "model": "random_forest_node",
+      "seed": 42,
+      "category": "correct_detection",
+      "graph_local_id": "test0.pkl:node:368",
+      "score": 0.04714466513867932,
+      "label": 1,
+      "threshold": 0.030197087434287066,
+      "node_ids": [
+        "test0.pkl:node:368",
+        "test0.pkl:node:367",
+        "test0.pkl:node:207781"
+      ],
+      "edges": [
+        [
+          367,
+          368
+        ],
+        [
+          207781,
+          368
+        ]
+      ],
+      "node_labels": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "model": "random_forest_node",
+      "seed": 42,
+      "category": "false_positive",
+      "graph_local_id": "test0.pkl:node:12",
+      "score": 0.09259779367354748,
+      "label": 0,
+      "threshold": 0.030197087434287066,
+      "node_ids": [
+        "test0.pkl:node:12",
+        "test0.pkl:node:13"
+      ],
+      "edges": [
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          12
+        ]
+      ],
+      "node_labels": [
+        0,
+        0
+      ]
+    },
+    {
+      "model": "random_forest_node",
+      "seed": 42,
+      "category": "missed_attack",
+      "graph_local_id": "test0.pkl:node:3627",
+      "score": 0.0,
+      "label": 1,
+      "threshold": 0.030197087434287066,
+      "node_ids": [
+        "test0.pkl:node:3627",
+        "test0.pkl:node:874",
+        "test0.pkl:node:28152",
+        "test0.pkl:node:33477",
+        "test0.pkl:node:38682",
+        "test0.pkl:node:43719",
+        "test0.pkl:node:48767",
+        "test0.pkl:node:53711",
+        "test0.pkl:node:58865",
+        "test0.pkl:node:63923",
+        "test0.pkl:node:68954",
+        "test0.pkl:node:73488",
+        "test0.pkl:node:81051",
+        "test0.pkl:node:85885",
+        "test0.pkl:node:94148",
+        "test0.pkl:node:99192",
+        "test0.pkl:node:104215",
+        "test0.pkl:node:109351",
+        "test0.pkl:node:114447",
+        "test0.pkl:node:119397"
+      ],
+      "edges": [
+        [
+          874,
+          3627
+        ],
+        [
+          3627,
+          874
+        ],
+        [
+          3627,
+          28152
+        ],
+        [
+          3627,
+          33477
+        ],
+        [
+          3627,
+          38682
+        ],
+        [
+          3627,
+          43719
+        ],
+        [
+          3627,
+          48767
+        ],
+        [
+          3627,
+          53711
+        ],
+        [
+          3627,
+          58865
+        ],
+        [
+          3627,
+          63923
+        ],
+        [
+          3627,
+          68954
+        ],
+        [
+          3627,
+          73488
+        ],
+        [
+          3627,
+          81051
+        ],
+        [
+          3627,
+          85885
+        ],
+        [
+          3627,
+          94148
+        ],
+        [
+          3627,
+          99192
+        ],
+        [
+          3627,
+          104215
+        ],
+        [
+          3627,
+          109351
+        ],
+        [
+          3627,
+          114447
+        ],
+        [
+          3627,
+          119397
+        ],
+        [
+          28152,
+          3627
+        ],
+        [
+          33477,
+          3627
+        ],
+        [
+          38682,
+          3627
+        ],
+        [
+          43719,
+          3627
+        ],
+        [
+          48767,
+          3627
+        ],
+        [
+          53711,
+          3627
+        ],
+        [
+          58865,
+          3627
+        ],
+        [
+          63923,
+          3627
+        ],
+        [
+          68954,
+          3627
+        ],
+        [
+          73488,
+          3627
+        ]
+      ],
+      "node_labels": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

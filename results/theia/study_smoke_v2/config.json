@@ -1,0 +1,43 @@
+{
+  "name": "theia_study_smoke",
+  "dataset": "DARPA_E3_THEIA_MAGIC_exports",
+  "role": "real_data_smoke_NOT_FULL_STUDY",
+  "device": "cpu",
+  "threads": 4,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 2,
+  "hidden": 32,
+  "learning_rate": 0.003,
+  "mask_rate": 0.4,
+  "validation_mask_seed": 2718,
+  "patience": 2,
+  "min_delta": 1e-05,
+  "validation_fpr": 0.01,
+  "rf_trees": 10,
+  "rf_max_depth": 16,
+  "knn_k": 5,
+  "query_batch_nodes": 256,
+  "max_nodes_per_graph_batch": 400000,
+  "max_edges_per_graph_batch": 750000,
+  "smoke_nodes": 4096,
+  "train_files": [
+    "train0.pkl",
+    "train1.pkl",
+    "train2.pkl"
+  ],
+  "validation_files": [
+    "train3.pkl"
+  ],
+  "test_files": [
+    "test0.pkl"
+  ],
+  "label_policy": "upstream_positive_presumed_background",
+  "benign_only_training": false,
+  "training_node_sampling": "none",
+  "reference_sampling": "none; identical embeddings compressed with exact multiplicity",
+  "checkpoint_selection": "minimum validation self-supervised loss; earliest epoch within min_delta"
+}

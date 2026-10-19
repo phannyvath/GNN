@@ -1,0 +1,22 @@
+{
+  "role": "real_data_smoke_NOT_FULL_STUDY",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "models": [
+    "flash_node",
+    "magic_node",
+    "random_forest_node"
+  ],
+  "evaluations": 9,
+  "figures": [
+    "roc_pr",
+    "learning_curves",
+    "confusion_matrices",
+    "model_comparison",
+    "graph_context"
+  ],
+  "data_fingerprint": "36c92d6298d2a3fcf54c61bc1701955469a40eab73a73c078248278c5d5c2621"
+}

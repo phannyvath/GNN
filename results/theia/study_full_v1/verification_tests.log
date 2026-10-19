@@ -1,0 +1,51 @@
+test_attention_with_no_edges (test_protocol.ProtocolTests.test_attention_with_no_edges) ... ok
+test_direction (test_protocol.ProtocolTests.test_direction) ... ok
+test_model_gradient_and_permutation_invariance (test_protocol.ProtocolTests.test_model_gradient_and_permutation_invariance) ... ok
+test_no_id_or_label_features (test_protocol.ProtocolTests.test_no_id_or_label_features) ... ok
+test_partial_dataset_rejected (test_protocol.ProtocolTests.test_partial_dataset_rejected) ... ok
+test_splits_disjoint_scenario_counts (test_protocol.ProtocolTests.test_splits_disjoint_scenario_counts) ... ok
+test_threshold_and_confusion (test_protocol.ProtocolTests.test_threshold_and_confusion) ... ok
+test_alignment_chronology_limits_and_direction (test_theia.TheiaTests.test_alignment_chronology_limits_and_direction) ... ok
+test_duplicate_events_and_two_predicates (test_theia.TheiaTests.test_duplicate_events_and_two_predicates) ... ok
+test_future_events_and_labels_do_not_change_training_features (test_theia.TheiaTests.test_future_events_and_labels_do_not_change_training_features) ... ok
+test_integrity_tamper_detected (test_theia.TheiaTests.test_integrity_tamper_detected) ... ok
+test_label_conflicts_and_bad_records_fail_loudly (test_theia.TheiaTests.test_label_conflicts_and_bad_records_fail_loudly) ... ok
+test_missing_definitions_and_import_caps_reported (test_theia.TheiaTests.test_missing_definitions_and_import_caps_reported) ... ok
+test_node_equivariance_gradients_and_checkpoint (test_theia.TheiaTests.test_node_equivariance_gradients_and_checkpoint) ... ok
+test_real_uuid_canonicalization (test_theia.TheiaTests.test_real_uuid_canonicalization) ... ok
+test_repeated_uuid_targets_only_once (test_theia.TheiaTests.test_repeated_uuid_targets_only_once) ... ok
+test_stream_formats_and_record_budget (test_theia.TheiaTests.test_stream_formats_and_record_budget) ... ok
+test_threshold_and_single_class_metrics (test_theia.TheiaTests.test_threshold_and_single_class_metrics) ... ok
+test_training_and_scores_ignore_ground_truth_labels (test_theia.TheiaTests.test_training_and_scores_ignore_ground_truth_labels) ... /Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/context.py:134: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids/.venv/lib/python3.13/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+ok
+test_unknown_not_negative_and_policy_explicit (test_theia.TheiaTests.test_unknown_not_negative_and_policy_explicit) ... ok
+test_features_direction_and_unknown_type (test_theia_processed.ProcessedTests.test_features_direction_and_unknown_type) ... ok
+test_isolated_nodes_preserved (test_theia_processed.ProcessedTests.test_isolated_nodes_preserved) ... ok
+test_pickle_rejects_attribute_escape (test_theia_processed.ProcessedTests.test_pickle_rejects_attribute_escape) ... ok
+test_pickle_rejects_executable_globals (test_theia_processed.ProcessedTests.test_pickle_rejects_executable_globals) ... ok
+test_static_split_label_alignment_and_fingerprints (test_theia_processed.ProcessedTests.test_static_split_label_alignment_and_fingerprints) ... Prepared train0.pkl: 13 nodes, 12 edges -> train
+Prepared train1.pkl: 13 nodes, 12 edges -> train
+Prepared train2.pkl: 13 nodes, 12 edges -> train
+Prepared train3.pkl: 13 nodes, 12 edges -> validation
+Prepared test0.pkl: 13 nodes, 12 edges -> test
+ok
+test_epoch_resume_matches_uninterrupted_training (test_theia_study.StudyTests.test_epoch_resume_matches_uninterrupted_training) ... ok
+test_exact_reference_preserves_all_duplicate_occurrences (test_theia_study.StudyTests.test_exact_reference_preserves_all_duplicate_occurrences) ... ok
+test_float32_score_csv_threshold_roundtrip (test_theia_study.StudyTests.test_float32_score_csv_threshold_roundtrip) ... ok
+test_label_alignment_even_after_valid_hash_update (test_theia_study.StudyTests.test_label_alignment_even_after_valid_hash_update) ... ok
+test_metric_definition_nulls_and_finite_outputs (test_theia_study.StudyTests.test_metric_definition_nulls_and_finite_outputs) ... ok
+test_summary_uses_sample_standard_deviation (test_theia_study.StudyTests.test_summary_uses_sample_standard_deviation) ... ok
+test_test_changes_do_not_change_training_features (test_theia_study.StudyTests.test_test_changes_do_not_change_training_features) ... ok
+test_three_seeds_and_split_contract (test_theia_study.StudyTests.test_three_seeds_and_split_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 1.406s
+
+OK

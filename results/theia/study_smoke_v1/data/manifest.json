@@ -1,0 +1,222 @@
+{
+  "format_version": "processed_static_v1",
+  "dataset": "theia_preprocessed",
+  "target": "graph_local_node",
+  "sources": {
+    "train0.pkl": "b814d119795a4b5ba361aeea29bc1817b1fe120337a84903e7af192c0d7c2278",
+    "train1.pkl": "ddcdac3f601e891fdbc8051d8f6c8f940642fda74046d55f5135336add161f1f",
+    "train2.pkl": "54fe7264d034c3c3f2b661ac593d4128e539a8aa63adfacd3912fb26394fd1c3",
+    "train3.pkl": "d241f2dadd210bc7d884973d49da9e59526f3067a27655ae0583d270c8335a0d",
+    "test0.pkl": "63f0b87c20d94d843e519e96a16cd6fe91ab3d821b1204f1ed3fb808dda24677",
+    "metadata.json": "bda53644d9c186cf6fd8a7d1c2948381068de12b3fa1511721727cb02157e8a6"
+  },
+  "config": {
+    "name": "theia_study_smoke",
+    "dataset": "DARPA_E3_THEIA_MAGIC_exports",
+    "role": "real_data_smoke_NOT_FULL_STUDY",
+    "device": "cpu",
+    "threads": 4,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 2,
+    "hidden": 32,
+    "learning_rate": 0.003,
+    "mask_rate": 0.4,
+    "validation_mask_seed": 2718,
+    "patience": 2,
+    "min_delta": 1e-05,
+    "validation_fpr": 0.01,
+    "rf_trees": 10,
+    "rf_max_depth": 16,
+    "knn_k": 5,
+    "query_batch_nodes": 256,
+    "max_nodes_per_graph_batch": 400000,
+    "max_edges_per_graph_batch": 750000,
+    "smoke_nodes": 4096,
+    "train_files": [
+      "train0.pkl",
+      "train1.pkl",
+      "train2.pkl"
+    ],
+    "validation_files": [
+      "train3.pkl"
+    ],
+    "test_files": [
+      "test0.pkl"
+    ],
+    "label_policy": "upstream_positive_presumed_background",
+    "benign_only_training": false,
+    "training_node_sampling": "none",
+    "reference_sampling": "none; identical embeddings compressed with exact multiplicity",
+    "checkpoint_selection": "minimum validation self-supervised loss; earliest epoch within min_delta"
+  },
+  "shards": [
+    {
+      "file": "train_0.npz",
+      "partition": "train",
+      "window": 0,
+      "max_ns": null,
+      "nodes": 4096,
+      "edges": 7367,
+      "sha256": "8a9af302640e77e7277aecbec679c33820d30e60a798fb672bff9515531cb376"
+    },
+    {
+      "file": "train_1.npz",
+      "partition": "train",
+      "window": 1,
+      "max_ns": null,
+      "nodes": 4096,
+      "edges": 4520,
+      "sha256": "1bb6a986c4f2b8d665263918d871010dc301364626e3588b1a467233ec200a45"
+    },
+    {
+      "file": "train_2.npz",
+      "partition": "train",
+      "window": 2,
+      "max_ns": null,
+      "nodes": 4096,
+      "edges": 5764,
+      "sha256": "2b3d225a66992323ff5a96e8c151c5817d75b9e71547084fbdebafe056f85e80"
+    },
+    {
+      "file": "validation_3.npz",
+      "partition": "validation",
+      "window": 3,
+      "max_ns": null,
+      "nodes": 4096,
+      "edges": 5719,
+      "sha256": "85ad8d4ae8112254e833a8af6c28072dbbbd6c293a55ee7e24183bd6c3be8f49"
+    },
+    {
+      "file": "test_4.npz",
+      "partition": "test",
+      "window": 4,
+      "max_ns": null,
+      "nodes": 4096,
+      "edges": 5260,
+      "sha256": "38bfce88f8ce991c987b0d2498f73c41c698df7ea4f774f2e4882f74d8a25948"
+    }
+  ],
+  "partitions": {
+    "train": {
+      "targets": 12288,
+      "edges": 17651
+    },
+    "validation": {
+      "targets": 4096,
+      "edges": 5719
+    },
+    "test": {
+      "targets": 4096,
+      "edges": 5260
+    }
+  },
+  "counts": [
+    {
+      "file": "train0.pkl",
+      "original_nodes": 167265,
+      "original_edges": 284562,
+      "used_nodes": 4096,
+      "used_edges": 7367
+    },
+    {
+      "file": "train1.pkl",
+      "original_nodes": 380204,
+      "original_edges": 674723,
+      "used_nodes": 4096,
+      "used_edges": 4520
+    },
+    {
+      "file": "train2.pkl",
+      "original_nodes": 342624,
+      "original_edges": 587111,
+      "used_nodes": 4096,
+      "used_edges": 5764
+    },
+    {
+      "file": "train3.pkl",
+      "original_nodes": 389106,
+      "original_edges": 700318,
+      "used_nodes": 4096,
+      "used_edges": 5719
+    },
+    {
+      "file": "test0.pkl",
+      "original_nodes": 344767,
+      "original_edges": 628107,
+      "used_nodes": 4096,
+      "used_edges": 5260
+    }
+  ],
+  "type_vocabulary": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5
+  },
+  "edge_vocabulary": {
+    "0": 1,
+    "1": 2,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 7,
+    "7": 8,
+    "8": 9,
+    "9": 10,
+    "10": 11,
+    "11": 12,
+    "12": 13,
+    "13": 14,
+    "14": 15,
+    "15": 16,
+    "16": 17
+  },
+  "feature_dim": 36,
+  "targets_sha256": "4ceaef269db247831c5b2932b880ee5189b7c74051bfbffcd04aacc149d3ec5b",
+  "smoke_nodes": 4096,
+  "protocol": "train0-2 fit; train3 validation presumed background; test0 upstream positives, complement presumed background. Graph-local IDs; cross-graph entity overlap unknown. No timestamps available.",
+  "provenance": {
+    "local_archive_sha256": "926b4e30a39b1680fe512ef015bfe03ab85760e12dc7d8ae88da40a346bd6864",
+    "zip_crc_passed": true,
+    "extracted_files_match_archive": {
+      "metadata.json": true,
+      "test0.pkl": true,
+      "train0.pkl": true,
+      "train1.pkl": true,
+      "train2.pkl": true,
+      "train3.pkl": true
+    },
+    "upstream_url": "https://raw.githubusercontent.com/FDUDSDE/MAGIC/aa0b647eea74b6faa0e52eb444370c4411a32cbe/data/theia/graphs.zip",
+    "remote_bytes": 7877492,
+    "remote_sha256": "926b4e30a39b1680fe512ef015bfe03ab85760e12dc7d8ae88da40a346bd6864",
+    "exact_upstream_match": true,
+    "upstream_check_reused": true
+  },
+  "prepare_seconds": 0.6482317498885095,
+  "prepare_process_peak_rss_mib": 988.015625,
+  "class_counts": {
+    "train": {
+      "positive": 0,
+      "presumed_background": 0,
+      "unknown": 12288
+    },
+    "validation": {
+      "positive": 0,
+      "presumed_background": 4096,
+      "unknown": 0
+    },
+    "test": {
+      "positive": 56,
+      "presumed_background": 4040,
+      "unknown": 0
+    }
+  },
+  "node_identity": "Graph-local node occurrences; unique entities across graphs and overlap are unknown.",
+  "fingerprint": "1effc0eb175a36986fbd6ae7c96c336fddc6e931482ee6b9a8a2fb3d6ea03a1b"
+}

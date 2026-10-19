@@ -1,0 +1,123 @@
+{
+  "old_run": "results/theia/processed_full_20261018T132637258404Z",
+  "command_evidence": "Historical exact shell invocation was not recorded. Existing launcher resolves bash scripts/train_theia.sh to python -u -m ids.theia.processed; run config/logs/manifests match that path.",
+  "saved_config": {
+    "name": "theia_processed",
+    "dataset": "theia_preprocessed",
+    "device": "cpu",
+    "threads": 4,
+    "seeds": [
+      42
+    ],
+    "epochs": 15,
+    "hidden": 32,
+    "learning_rate": 0.003,
+    "mask_rate": 0.4,
+    "rf_max_train_nodes": 100000,
+    "rf_trees": 100,
+    "rf_max_depth": 16,
+    "max_reference_nodes": 5000,
+    "knn_k": 5,
+    "validation_fpr": 0.01,
+    "label_policy": "upstream_positive_presumed_background",
+    "experiment_role": "exploratory_static_graph_comparison"
+  },
+  "source_identity_checks": {
+    "ids/theia/processed.py": true,
+    "ids/theia/worker.py": true,
+    "ids/theia/models.py": true,
+    "ids/models.py": true
+  },
+  "prepared_counts": [
+    {
+      "file": "train0.pkl",
+      "original_nodes": 167265,
+      "original_edges": 284562,
+      "used_nodes": 167265,
+      "used_edges": 284562
+    },
+    {
+      "file": "train1.pkl",
+      "original_nodes": 380204,
+      "original_edges": 674723,
+      "used_nodes": 380204,
+      "used_edges": 674723
+    },
+    {
+      "file": "train2.pkl",
+      "original_nodes": 342624,
+      "original_edges": 587111,
+      "used_nodes": 342624,
+      "used_edges": 587111
+    },
+    {
+      "file": "train3.pkl",
+      "original_nodes": 389106,
+      "original_edges": 700318,
+      "used_nodes": 389106,
+      "used_edges": 700318
+    },
+    {
+      "file": "test0.pkl",
+      "original_nodes": 344767,
+      "original_edges": 628107,
+      "used_nodes": 344767,
+      "used_edges": 628107
+    }
+  ],
+  "partitions": {
+    "train": {
+      "targets": 890093,
+      "edges": 1546396
+    },
+    "validation": {
+      "targets": 389106,
+      "edges": 700318
+    },
+    "test": {
+      "targets": 344767,
+      "edges": 628107
+    }
+  },
+  "models": {
+    "flash_node": {
+      "epochs": 15,
+      "optimizer_steps": 45,
+      "scaler_samples": 890093,
+      "reservoir_seen": 0,
+      "reservoir_retained": 0,
+      "training_seconds": 9.481313625350595,
+      "validation_seconds": 0.32618954172357917,
+      "test_scoring_seconds": 0.28587649995461106,
+      "feature_dim": 36,
+      "hidden": 32,
+      "parameters": 6790,
+      "checkpoint_sha256": "f0a52f59b8250f38a2b45d2154737b27b090faf456c0bad5363caec7a6efbced"
+    },
+    "magic_node": {
+      "epochs": 15,
+      "optimizer_steps": 45,
+      "scaler_samples": 890093,
+      "reservoir_seen": 890093,
+      "reservoir_retained": 5000,
+      "training_seconds": 21.861079165712,
+      "validation_seconds": 4.9131069160066545,
+      "test_scoring_seconds": 4.298510333057493,
+      "feature_dim": 36,
+      "hidden": 32,
+      "parameters": 3528,
+      "checkpoint_sha256": "22ecd121c148ba42e638e5a5ca41254a55417d30c45e1061624743b655a6dd6a"
+    },
+    "random_forest_node": {
+      "epochs": 0,
+      "optimizer_steps": 0,
+      "scaler_samples": 890093,
+      "reservoir_seen": 890093,
+      "reservoir_retained": 100000,
+      "training_seconds": 1.846147125121206,
+      "validation_seconds": 0.3566526249051094,
+      "test_scoring_seconds": 0.32516054110601544
+    }
+  },
+  "conclusion": "Fresh training, not evaluate-only or cached checkpoints. Prepared full graphs; RF/reference reservoirs limit their own fits."
+}

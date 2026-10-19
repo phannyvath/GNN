@@ -1,0 +1,17 @@
+{
+  "actual_full_study_complete": true,
+  "workers": 9,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "source_snapshot_matches_executed_code_hashes": true,
+  "all_training_occurrences_per_method": 890093,
+  "validation_occurrences": 389106,
+  "test_occurrences": 344767,
+  "full_pipeline_wall_seconds_from_invocation_to_completion_marker": 445.3346002101898,
+  "wall_definition": "UTC invocation timestamp to first completion-marker file mtime; includes preparation, workers, audits and plotting; excludes later checkpoint rescoring. Not a monotonic timer.",
+  "max_worker_peak_rss_mib": 2570.09375,
+  "all_neural_runs_hit_epoch_budget": true
+}

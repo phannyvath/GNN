@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "/Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids/ids/theia/study.py",
+    "--smoke",
+    "--output",
+    "results/theia/study_smoke_v1"
+  ],
+  "cwd": "/Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids",
+  "executable": "/Users/enel/Documents/Semester 2/COS60011-technology design project /Week 2/gnn_ids/.venv/bin/python",
+  "utc": "2026-10-19T10:31:56.150762+00:00",
+  "fresh_training": true,
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O"
+}

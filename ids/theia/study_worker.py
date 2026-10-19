@@ -118,7 +118,9 @@ def inference(name,model,scaler,reference,data,c,part,out,threshold=None):
                 identity.update(f'{uid}\t{part}\t{label}\n'.encode())
                 writer.writerow([uid,part,int(label),float(value),'' if threshold is None else threshold,'' if threshold is None else int(value>=threshold)])
             count+=len(values);emit('inference',partition=part,nodes_processed=count,elapsed_seconds=time.perf_counter()-started)
-    return np.concatenate(ys),np.concatenate(ss),{'scoring_seconds':score_seconds,'wall_seconds_including_csv':time.perf_counter()-started,'target_identity_sha256':identity.hexdigest()}
+    # CSV values are Python float64. Select thresholds in the same precision so
+    # nextafter tie handling is exactly reproducible when predictions are read.
+    return np.concatenate(ys),np.concatenate(ss).astype(np.float64),{'scoring_seconds':score_seconds,'wall_seconds_including_csv':time.perf_counter()-started,'target_identity_sha256':identity.hexdigest()}
 
 
 def run(study,name,seed,resume=False):

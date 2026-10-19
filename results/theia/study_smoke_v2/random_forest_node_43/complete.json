@@ -1,0 +1,14 @@
+{
+  "fingerprint": "36c92d6298d2a3fcf54c61bc1701955469a40eab73a73c078248278c5d5c2621",
+  "test_identity": "790669bdce578423cf3d90a34bf9aaf449eea5baecea053ede1c36094d12b2ec",
+  "validation_identity": "d107c184113b332660953aded48c5b8971c5757fdcf72baf3882fd55051d59fc",
+  "artifacts": {
+    "metrics.json": "188e48520112865148e6fd3947d3d48eadcecf216a816276c5d46d69327296a6",
+    "test_predictions.csv": "dfbb516df92f9a85e2dde98d500d0c629817c1ff00bcdc207b7c5fd2d828e8e2",
+    "validation_predictions.csv": "661b5731c87402eae14f7b439d1d3d77651ba378d3bcc7eabff14ae99a321a30",
+    "threshold.json": "001bdabe04443225690d6218110b1c46980834ae98d12a73e68980b8999c6d33",
+    "selection.json": "4b303e1f48879e9a34264c643cc0bc196972d233da23a44cf0aa72717726b07e",
+    "preprocessing.json": "5eb2dbe7594e92c31ff0312fcac93f3e405a7686c0aa729fbeeba878e041a3f8",
+    "checkpoint.joblib": "0f9c4f9ca9161062419b722d522e9cee960060dfc8712b6dc61b76dff1921035"
+  }
+}

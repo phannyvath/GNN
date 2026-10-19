@@ -1,0 +1,5 @@
+{
+  "threshold": 0.9261314272880555,
+  "rule": "validation negative quantile; no validation positives",
+  "partition": "validation"
+}

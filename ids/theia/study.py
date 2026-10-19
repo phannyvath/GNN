@@ -1,8 +1,10 @@
 """Reproducible study entry point: separate data, fresh workers, explicit resume."""
 import argparse
 import json
+import importlib.metadata
 import os
 import platform
+import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -45,6 +47,13 @@ def main():
         out=(ROOT/a.output).resolve() if a.output else ROOT/'results/theia'/f"{c['name']}_{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')}"
         out.mkdir(parents=True,exist_ok=False)
         save_json(out/'config.json',c);save_json(out/'code_fingerprints.json',code_hashes())
+        for relative in code_hashes():
+            target=out/'source_snapshot'/relative
+            target.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copyfile(ROOT/relative,target)
+        (out/'source_snapshot/configs').mkdir(exist_ok=True)
+        save_json(out/'source_snapshot/configs/theia_study_full.json',c)
+        save_json(out/'software_versions.json',{name:importlib.metadata.version(name) for name in ['torch','numpy','scikit-learn','scipy','joblib','matplotlib']})
         save_json(out/'invocation.json',{'argv':sys.argv,'cwd':str(Path.cwd()),'executable':sys.executable,'utc':datetime.now(timezone.utc).isoformat(),'fresh_training':True,'platform':platform.platform()})
         print('STUDY:',out,flush=True);print('CONFIG:',json.dumps(c,sort_keys=True),flush=True)
         make_data(source,out/'data',c)
